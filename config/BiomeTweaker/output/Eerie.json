@@ -20,7 +20,20 @@
     "SPOOKY",
     "MAGICAL"
   ],
-  "BiomeManager Entries": {},
+  "BiomeManager Entries": {
+    "DESERT Weights": [
+      2000
+    ],
+    "WARM Weights": [
+      2000
+    ],
+    "COOL Weights": [
+      2000
+    ],
+    "ICY Weights": [
+      2000
+    ]
+  },
   "Spawnable Creatures": [
     {
       "Entity Class": "net.minecraft.entity.passive.EntityBat",
@@ -132,5 +145,5 @@
     }
   ],
   "Spawn Biome": false,
-  "Tweaked": false
+  "Tweaked": true
 }

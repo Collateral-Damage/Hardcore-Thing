@@ -21,11 +21,7 @@
     "SNOWY",
     "WASTELAND"
   ],
-  "BiomeManager Entries": {
-    "ICY Weights": [
-      30
-    ]
-  },
+  "BiomeManager Entries": {},
   "Spawnable Creatures": [],
   "Spawnable Monsters": [
     {
@@ -100,5 +96,5 @@
     }
   ],
   "Spawn Biome": false,
-  "Tweaked": false
+  "Tweaked": true
 }

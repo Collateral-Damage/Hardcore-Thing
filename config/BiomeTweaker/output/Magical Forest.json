@@ -20,14 +20,7 @@
     "MAGICAL",
     "FOREST"
   ],
-  "BiomeManager Entries": {
-    "WARM Weights": [
-      3
-    ],
-    "COOL Weights": [
-      3
-    ]
-  },
+  "BiomeManager Entries": {},
   "Spawnable Creatures": [
     {
       "Entity Class": "net.minecraft.entity.passive.EntitySheep",
@@ -199,5 +192,5 @@
     }
   ],
   "Spawn Biome": false,
-  "Tweaked": false
+  "Tweaked": true
 }

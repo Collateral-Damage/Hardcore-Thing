@@ -65,14 +65,7 @@
       "Max Group Count": 1
     }
   ],
-  "Spawnable Water Creatures": [
-    {
-      "Entity Class": "net.minecraft.entity.passive.EntitySquid",
-      "Weight": 10,
-      "Min Group Count": 4,
-      "Max Group Count": 4
-    }
-  ],
+  "Spawnable Water Creatures": [],
   "Spawnable Cave Creatures": [
     {
       "Entity Class": "net.minecraft.entity.passive.EntityBat",
@@ -82,5 +75,5 @@
     }
   ],
   "Spawn Biome": false,
-  "Tweaked": false
+  "Tweaked": true
 }

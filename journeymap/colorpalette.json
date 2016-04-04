@@ -1,0 +1,6199 @@
+var colorpalette={
+  "version": 3,
+  "name": "JourneyMap Color Palette",
+  "generated": "Generated using JourneyMap 5.1.5 Unlimited for 1.8.9 on Sun Apr 03 21:53:13 CDT 2016",
+  "description": [
+    "This file can be used to keep map colors consistent when changing resource packs.",
+    "Edit at your own risk. You can view it using the colorpalette.html file.",
+    "To use this palette with a single world, place colorpalette.json in: .minecraft/journeymap/data/*/worldname/",
+    "To use this palette with all worlds, edit and set \"permanent\": true, then place colorpalette.json in: .minecraft/journeymap/",
+    "For more information, go to: http://journeymap.info/help/wiki/Color_Palette"
+  ],
+  "permanent": true,
+  "resourcePacks": "Default",
+  "modNames": "Bagginses:2.1.5b, Baubles:1.1.3.0, BiomeTweaker:2.0.184, Bookshelf:2.3.7, Chisels \u0026 Bits:8.7, CustomNPCs:1.8.9_beta, Ender Zoo:1.8.9-1.1.3.35, Forge Mod Loader:8.0.99.99, Intangible:0.0.25, Inventory Tweaks:1.60-40-e06e29a, Iron Chest:6.0.125.770, JourneyMap:1.8.9-5.1.5, Just Enough Items Addons:0.12.0.57, Just Enough Items:2.28.12.180, LaunchGUI:1.8.8-2.0.1-19, MCMultiPart:1.0.9, Mantle:1.8.9-0.9.2.jenkins102, Minecraft Coder Pack:9.19, Minecraft Forge:11.15.1.1808, Mod Tweaker 2:1.0.0, Morpheus:1.8.9-2.0.58, MrCrayfish\u0027s Furniture Mod:3.6, NeoTech:2.4.4, Roguelike Dungeons:1.4.5, Thaumcraft:5.2.4, Tinkers\u0027 Construct:1.8.9-2.2.1.jenkins1005, Waila Harvestability:1.1.6, Waila:1.6.0, What Are We Looking At:1.1.4.168, crafttweaker:3.0.0",
+  "basicColors": [
+    {
+      "name": "Acacia Door",
+      "uid": "minecraft:acacia_door",
+      "meta": 0,
+      "color": "#9b5836"
+    },
+    {
+      "name": "Acacia Fence",
+      "uid": "minecraft:acacia_fence",
+      "meta": 0,
+      "color": "#a95b33",
+      "alpha": 0.4
+    },
+    {
+      "name": "Acacia Fence Gate",
+      "uid": "minecraft:acacia_fence_gate",
+      "meta": 0,
+      "color": "#a95b33",
+      "alpha": 0.4
+    },
+    {
+      "name": "Acacia Leaves",
+      "uid": "minecraft:leaves2",
+      "meta": 0,
+      "color": "#878787"
+    },
+    {
+      "name": "Acacia Sapling",
+      "uid": "minecraft:sapling",
+      "meta": 4,
+      "color": "#727314"
+    },
+    {
+      "name": "Acacia Wood",
+      "uid": "minecraft:log2",
+      "meta": 0,
+      "color": "#696359"
+    },
+    {
+      "name": "Acacia Wood Planks",
+      "uid": "minecraft:planks",
+      "meta": 4,
+      "color": "#a95b33"
+    },
+    {
+      "name": "Acacia Wood Slab",
+      "uid": "minecraft:wooden_slab",
+      "meta": 4,
+      "color": "#a95b33"
+    },
+    {
+      "name": "Acacia Wood Stairs",
+      "uid": "minecraft:acacia_stairs",
+      "meta": 0,
+      "color": "#a95b33"
+    },
+    {
+      "name": "Activator Rail",
+      "uid": "minecraft:activator_rail",
+      "meta": 0,
+      "color": "#685347"
+    },
+    {
+      "name": "Advanced Alchemical Construct",
+      "uid": "thaumcraft:metal",
+      "meta": 3,
+      "color": "#83633d"
+    },
+    {
+      "name": "Advanced RF Storage",
+      "uid": "neotech:advancedRFStorage",
+      "meta": 0,
+      "color": "#605952"
+    },
+    {
+      "name": "Advanced Solar Panel",
+      "uid": "neotech:solarPanelT2",
+      "meta": 0,
+      "color": "#3d8ffb"
+    },
+    {
+      "name": "Air Crystal",
+      "uid": "thaumcraft:crystal_aer",
+      "meta": 0,
+      "color": "#bbbdbc",
+      "alpha": 0.4
+    },
+    {
+      "name": "Alchemical Construct",
+      "uid": "thaumcraft:metal",
+      "meta": 2,
+      "color": "#423d38"
+    },
+    {
+      "name": "Allium",
+      "uid": "minecraft:red_flower",
+      "meta": 2,
+      "color": "#8549b6"
+    },
+    {
+      "name": "Amber Bearing Stone",
+      "uid": "thaumcraft:ore_amber",
+      "meta": 0,
+      "color": "#877c6a"
+    },
+    {
+      "name": "Amber Block",
+      "uid": "thaumcraft:translucent",
+      "meta": 0,
+      "color": "#eba958",
+      "alpha": 0.4
+    },
+    {
+      "name": "Amber Bricks",
+      "uid": "thaumcraft:translucent",
+      "meta": 1,
+      "color": "#ecaf5c",
+      "alpha": 0.4
+    },
+    {
+      "name": "Ambient Grass Block",
+      "uid": "thaumcraft:grass_ambient",
+      "meta": 0,
+      "color": "#866043"
+    },
+    {
+      "name": "Ancient Doorway",
+      "uid": "thaumcraft:eldritch",
+      "meta": 5,
+      "color": "#7c007c"
+    },
+    {
+      "name": "Ancient Doorway",
+      "uid": "thaumcraft:stone",
+      "meta": 10,
+      "color": "#18131e"
+    },
+    {
+      "name": "Ancient Infusion Pillar",
+      "uid": "thaumcraft:pillar",
+      "meta": 6,
+      "color": "#454034"
+    },
+    {
+      "name": "Ancient Locking Mechanism",
+      "uid": "thaumcraft:eldritch",
+      "meta": 4,
+      "color": "#7c007c"
+    },
+    {
+      "name": "Ancient Pedestal",
+      "uid": "thaumcraft:pedestal",
+      "meta": 2,
+      "color": "#444038"
+    },
+    {
+      "name": "Ancient Rock",
+      "uid": "thaumcraft:stone",
+      "meta": 3,
+      "color": "#3a3f46"
+    },
+    {
+      "name": "Ancient Stone",
+      "uid": "thaumcraft:stone",
+      "meta": 2,
+      "color": "#423d31"
+    },
+    {
+      "name": "Ancient Stone Slab",
+      "uid": "thaumcraft:slab_stone",
+      "meta": 2,
+      "color": "#423d31"
+    },
+    {
+      "name": "Ancient Stone Stairs",
+      "uid": "thaumcraft:ancient_stairs",
+      "meta": 0,
+      "color": "#423d31"
+    },
+    {
+      "name": "Ancient Stone Tile",
+      "uid": "thaumcraft:stone",
+      "meta": 5,
+      "color": "#423d31"
+    },
+    {
+      "name": "Andesite",
+      "uid": "minecraft:stone",
+      "meta": 5,
+      "color": "#828383"
+    },
+    {
+      "name": "Anvil",
+      "uid": "minecraft:anvil",
+      "meta": 0,
+      "color": "#404040"
+    },
+    {
+      "name": "Anvil",
+      "uid": "minecraft:anvil",
+      "meta": 1,
+      "color": "#404040"
+    },
+    {
+      "name": "Anvil",
+      "uid": "minecraft:anvil",
+      "meta": 2,
+      "color": "#404040"
+    },
+    {
+      "name": "Arcane Alembic",
+      "uid": "thaumcraft:alembic",
+      "meta": 0,
+      "color": "#473624"
+    },
+    {
+      "name": "Arcane Bellows",
+      "uid": "thaumcraft:bellows",
+      "meta": 0,
+      "color": "#7c007c"
+    },
+    {
+      "name": "Arcane Bore",
+      "uid": "thaumcraft:arcane_bore",
+      "meta": 0,
+      "color": "#30221e"
+    },
+    {
+      "name": "Arcane Bore Base",
+      "uid": "thaumcraft:arcane_bore_base",
+      "meta": 0,
+      "color": "#30221e"
+    },
+    {
+      "name": "Arcane Brick Slab",
+      "uid": "thaumcraft:slab_stone",
+      "meta": 1,
+      "color": "#393939"
+    },
+    {
+      "name": "Arcane Brick Stairs",
+      "uid": "thaumcraft:arcane_brick_stairs",
+      "meta": 0,
+      "color": "#393939"
+    },
+    {
+      "name": "Arcane Ear",
+      "uid": "thaumcraft:arcane_ear",
+      "meta": 0,
+      "color": "#7c561c"
+    },
+    {
+      "name": "Arcane Lamp",
+      "uid": "thaumcraft:lamp_arcane",
+      "meta": 0,
+      "color": "#504a2e"
+    },
+    {
+      "name": "Arcane Levitator",
+      "uid": "thaumcraft:levitator",
+      "meta": 0,
+      "color": "#322821"
+    },
+    {
+      "name": "Arcane Pattern Crafter",
+      "uid": "thaumcraft:pattern_crafter",
+      "meta": 0,
+      "color": "#2d231a"
+    },
+    {
+      "name": "Arcane Pedestal",
+      "uid": "thaumcraft:pedestal",
+      "meta": 0,
+      "color": "#4c4c4c"
+    },
+    {
+      "name": "Arcane Spa",
+      "uid": "thaumcraft:spa",
+      "meta": 0,
+      "color": "#666563"
+    },
+    {
+      "name": "Arcane Stone",
+      "uid": "thaumcraft:stone",
+      "meta": 0,
+      "color": "#3c3c3c"
+    },
+    {
+      "name": "Arcane Stone Brick",
+      "uid": "thaumcraft:stone",
+      "meta": 1,
+      "color": "#393939"
+    },
+    {
+      "name": "Arcane Stone Slab",
+      "uid": "thaumcraft:slab_stone",
+      "meta": 0,
+      "color": "#3e3e3e"
+    },
+    {
+      "name": "Arcane Stone Stairs",
+      "uid": "thaumcraft:arcane_stairs",
+      "meta": 0,
+      "color": "#3e3e3e"
+    },
+    {
+      "name": "Arcane Workbench",
+      "uid": "thaumcraft:arcane_workbench",
+      "meta": 0,
+      "color": "#221f17"
+    },
+    {
+      "name": "Arcane Workbench Charger",
+      "uid": "thaumcraft:arcane_workbench_charger",
+      "meta": 0,
+      "color": "#7c007c"
+    },
+    {
+      "name": "Ardite Ore",
+      "uid": "tconstruct:ore",
+      "meta": 1,
+      "color": "#8d7027"
+    },
+    {
+      "name": "Attractor (WIP)",
+      "uid": "neotech:blockAttractor",
+      "meta": 0,
+      "color": "#14121d"
+    },
+    {
+      "name": "Aura Totem of Attraction",
+      "uid": "thaumcraft:aura_totem",
+      "meta": 1,
+      "color": "#6d5c4b"
+    },
+    {
+      "name": "Aura Totem of Dispersal",
+      "uid": "thaumcraft:aura_totem",
+      "meta": 0,
+      "color": "#796857"
+    },
+    {
+      "name": "Azure Bluet",
+      "uid": "minecraft:red_flower",
+      "meta": 3,
+      "color": "#9da1a7"
+    },
+    {
+      "name": "Banner",
+      "uid": "customnpcs:npcBanner",
+      "meta": 0,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Banner",
+      "uid": "customnpcs:npcBanner",
+      "meta": 1,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Banner",
+      "uid": "customnpcs:npcBanner",
+      "meta": 2,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Banner",
+      "uid": "customnpcs:npcBanner",
+      "meta": 3,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Banner",
+      "uid": "customnpcs:npcBanner",
+      "meta": 4,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Barrel",
+      "uid": "customnpcs:npcBarrel",
+      "meta": 0,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Barrel",
+      "uid": "customnpcs:npcBarrel",
+      "meta": 1,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Barrel",
+      "uid": "customnpcs:npcBarrel",
+      "meta": 2,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Barrel",
+      "uid": "customnpcs:npcBarrel",
+      "meta": 3,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Barrel",
+      "uid": "customnpcs:npcBarrel",
+      "meta": 4,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Barrel",
+      "uid": "customnpcs:npcBarrel",
+      "meta": 5,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Barrier Stone",
+      "uid": "thaumcraft:paving_stone",
+      "meta": 0,
+      "color": "#4a4747"
+    },
+    {
+      "name": "Basic RF Storage",
+      "uid": "neotech:basicRFStorage",
+      "meta": 0,
+      "color": "#635b5b"
+    },
+    {
+      "name": "Basic Solar Panel",
+      "uid": "neotech:solarPanelT1",
+      "meta": 0,
+      "color": "#3d8ffb"
+    },
+    {
+      "name": "Beacon",
+      "uid": "minecraft:beacon",
+      "meta": 0,
+      "color": "#daf0f4",
+      "alpha": 0.4
+    },
+    {
+      "name": "Beam",
+      "uid": "customnpcs:npcBeam",
+      "meta": 0,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Beam",
+      "uid": "customnpcs:npcBeam",
+      "meta": 1,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Beam",
+      "uid": "customnpcs:npcBeam",
+      "meta": 2,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Beam",
+      "uid": "customnpcs:npcBeam",
+      "meta": 3,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Beam",
+      "uid": "customnpcs:npcBeam",
+      "meta": 4,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Beam",
+      "uid": "customnpcs:npcBeam",
+      "meta": 5,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Bed",
+      "uid": "minecraft:bed",
+      "meta": 0,
+      "color": "#8e1616"
+    },
+    {
+      "name": "Bedrock",
+      "uid": "minecraft:bedrock",
+      "meta": 0,
+      "color": "#535353"
+    },
+    {
+      "name": "Bellows",
+      "uid": "intangible:bellows",
+      "meta": 0,
+      "color": "#dbdbdb"
+    },
+    {
+      "name": "Benign Stone",
+      "uid": "intangible:soulcage",
+      "meta": 1,
+      "color": "#717171"
+    },
+    {
+      "name": "Big Sign",
+      "uid": "customnpcs:npcBigSign",
+      "meta": 0,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Birch Door",
+      "uid": "minecraft:birch_door",
+      "meta": 0,
+      "color": "#c6bd8d"
+    },
+    {
+      "name": "Birch Fence",
+      "uid": "minecraft:birch_fence",
+      "meta": 0,
+      "color": "#c3b37b",
+      "alpha": 0.4
+    },
+    {
+      "name": "Birch Fence Gate",
+      "uid": "minecraft:birch_fence_gate",
+      "meta": 0,
+      "color": "#c3b37b",
+      "alpha": 0.4
+    },
+    {
+      "name": "Birch Leaves",
+      "uid": "minecraft:leaves",
+      "meta": 2,
+      "color": "#878787"
+    },
+    {
+      "name": "Birch Sapling",
+      "uid": "minecraft:sapling",
+      "meta": 2,
+      "color": "#769654"
+    },
+    {
+      "name": "Birch Wood",
+      "uid": "minecraft:log",
+      "meta": 2,
+      "color": "#cecec9"
+    },
+    {
+      "name": "Birch Wood Planks",
+      "uid": "minecraft:planks",
+      "meta": 2,
+      "color": "#c3b37b"
+    },
+    {
+      "name": "Birch Wood Slab",
+      "uid": "minecraft:wooden_slab",
+      "meta": 2,
+      "color": "#c3b37b"
+    },
+    {
+      "name": "Birch Wood Stairs",
+      "uid": "minecraft:birch_stairs",
+      "meta": 0,
+      "color": "#c3b37b"
+    },
+    {
+      "name": "Black Banner",
+      "uid": "minecraft:standing_banner",
+      "meta": 0,
+      "color": "#9c7f4e"
+    },
+    {
+      "name": "Black Banner",
+      "uid": "minecraft:wall_banner",
+      "meta": 0,
+      "color": "#9c7f4e"
+    },
+    {
+      "name": "Black Carpet",
+      "uid": "minecraft:carpet",
+      "meta": 15,
+      "color": "#191616"
+    },
+    {
+      "name": "Black Nitor",
+      "uid": "thaumcraft:nitor",
+      "meta": 15,
+      "color": "#959595"
+    },
+    {
+      "name": "Black Stained Clay",
+      "uid": "minecraft:stained_hardened_clay",
+      "meta": 15,
+      "color": "#251610"
+    },
+    {
+      "name": "Black Stained Glass",
+      "uid": "minecraft:stained_glass",
+      "meta": 15,
+      "color": "#191919",
+      "alpha": 0.4
+    },
+    {
+      "name": "Black Stained Glass Pane",
+      "uid": "minecraft:stained_glass_pane",
+      "meta": 15,
+      "color": "#191919",
+      "alpha": 0.4
+    },
+    {
+      "name": "Black Tallow Candle",
+      "uid": "thaumcraft:candle",
+      "meta": 15,
+      "color": "#f2e1c0"
+    },
+    {
+      "name": "Black Wool",
+      "uid": "minecraft:wool",
+      "meta": 15,
+      "color": "#191616"
+    },
+    {
+      "name": "Block of Ardite",
+      "uid": "tconstruct:metal",
+      "meta": 1,
+      "color": "#e06702"
+    },
+    {
+      "name": "Block of Bronze",
+      "uid": "neotech:blockBronze",
+      "meta": 0,
+      "color": "#c38d1e"
+    },
+    {
+      "name": "Block of Coal",
+      "uid": "minecraft:coal_block",
+      "meta": 0,
+      "color": "#121212"
+    },
+    {
+      "name": "Block of Cobalt",
+      "uid": "tconstruct:metal",
+      "meta": 0,
+      "color": "#277be1"
+    },
+    {
+      "name": "Block of Copper",
+      "uid": "neotech:blockCopper",
+      "meta": 0,
+      "color": "#bc7444"
+    },
+    {
+      "name": "Block of Diamond",
+      "uid": "minecraft:diamond_block",
+      "meta": 0,
+      "color": "#61dbd5"
+    },
+    {
+      "name": "Block of Emerald",
+      "uid": "minecraft:emerald_block",
+      "meta": 0,
+      "color": "#51d975"
+    },
+    {
+      "name": "Block of Flesh",
+      "uid": "thaumcraft:flesh_block",
+      "meta": 0,
+      "color": "#bc8878"
+    },
+    {
+      "name": "Block of Gold",
+      "uid": "minecraft:gold_block",
+      "meta": 0,
+      "color": "#f9ec4e"
+    },
+    {
+      "name": "Block of Iron",
+      "uid": "minecraft:iron_block",
+      "meta": 0,
+      "color": "#dbdbdb"
+    },
+    {
+      "name": "Block of Knightslime",
+      "uid": "tconstruct:metal",
+      "meta": 3,
+      "color": "#c486ee"
+    },
+    {
+      "name": "Block of Lead",
+      "uid": "neotech:blockLead",
+      "meta": 0,
+      "color": "#726472"
+    },
+    {
+      "name": "Block of Manyullyn",
+      "uid": "tconstruct:metal",
+      "meta": 2,
+      "color": "#9255bc"
+    },
+    {
+      "name": "Block of Pigiron",
+      "uid": "tconstruct:metal",
+      "meta": 4,
+      "color": "#d8a7a7"
+    },
+    {
+      "name": "Block of Quartz",
+      "uid": "minecraft:quartz_block",
+      "meta": 0,
+      "color": "#ece9e2"
+    },
+    {
+      "name": "Block of Redstone",
+      "uid": "minecraft:redstone_block",
+      "meta": 0,
+      "color": "#ab1b09"
+    },
+    {
+      "name": "Block of Silver",
+      "uid": "neotech:blockSilver",
+      "meta": 0,
+      "color": "#dde4e6"
+    },
+    {
+      "name": "Block of Steel",
+      "uid": "neotech:blockSteel",
+      "meta": 0,
+      "color": "#5f5f5f"
+    },
+    {
+      "name": "Block of Tin",
+      "uid": "neotech:blockTin",
+      "meta": 0,
+      "color": "#dee2d0"
+    },
+    {
+      "name": "Blood",
+      "uid": "tconstruct:blood",
+      "meta": 0,
+      "color": "#aaaaaa",
+      "alpha": 0.3
+    },
+    {
+      "name": "Blood Block",
+      "uid": "customnpcs:npcBloodBlock",
+      "meta": 0,
+      "color": "#ca0505",
+      "alpha": 0.4
+    },
+    {
+      "name": "Blood Block",
+      "uid": "customnpcs:npcBloodBlock",
+      "meta": 1,
+      "color": "#d20e0e",
+      "alpha": 0.4
+    },
+    {
+      "name": "Blood Block",
+      "uid": "customnpcs:npcBloodBlock",
+      "meta": 2,
+      "color": "#cb0707",
+      "alpha": 0.4
+    },
+    {
+      "name": "Blood Slime Block",
+      "uid": "tconstruct:slime",
+      "meta": 3,
+      "color": "#bc1916"
+    },
+    {
+      "name": "Blow Mold",
+      "uid": "intangible:blowmold",
+      "meta": 0,
+      "color": "#7d7d7d"
+    },
+    {
+      "name": "Blue Carpet",
+      "uid": "minecraft:carpet",
+      "meta": 11,
+      "color": "#2e388d"
+    },
+    {
+      "name": "Blue Crystal",
+      "uid": "intangible:crystal",
+      "meta": 0,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Blue Crystal Block",
+      "uid": "intangible:blue_crystal_block",
+      "meta": 0,
+      "color": "#0073ff"
+    },
+    {
+      "name": "Blue Nitor",
+      "uid": "thaumcraft:nitor",
+      "meta": 11,
+      "color": "#959595"
+    },
+    {
+      "name": "Blue Orchid",
+      "uid": "minecraft:red_flower",
+      "meta": 1,
+      "color": "#1e7eb6"
+    },
+    {
+      "name": "Blue Slime Block",
+      "uid": "tconstruct:slime",
+      "meta": 1,
+      "color": "#5cced1"
+    },
+    {
+      "name": "Blue Slime Sapling",
+      "uid": "tconstruct:slime_sapling",
+      "meta": 0,
+      "color": "#4cc38b"
+    },
+    {
+      "name": "Blue Slimy Dirt",
+      "uid": "tconstruct:slime_dirt",
+      "meta": 1,
+      "color": "#629298"
+    },
+    {
+      "name": "Blue Slimy Grass",
+      "uid": "tconstruct:slime_grass",
+      "meta": 3,
+      "color": "#86619a"
+    },
+    {
+      "name": "Blue Slimy Grass",
+      "uid": "tconstruct:slime_grass",
+      "meta": 8,
+      "color": "#86619a"
+    },
+    {
+      "name": "Blue Slimy Grass",
+      "uid": "tconstruct:slime_grass",
+      "meta": 13,
+      "color": "#86619a"
+    },
+    {
+      "name": "Blue Slimy Mud",
+      "uid": "tconstruct:soil",
+      "meta": 2,
+      "color": "#054f58"
+    },
+    {
+      "name": "Blue Slimy Vine",
+      "uid": "tconstruct:slime_vine_blue",
+      "meta": 0,
+      "color": "#b2b2b2",
+      "alpha": 0.2
+    },
+    {
+      "name": "Blue Slimy Vine",
+      "uid": "tconstruct:slime_vine_blue_end",
+      "meta": 0,
+      "color": "#b3b3b3",
+      "alpha": 0.2
+    },
+    {
+      "name": "Blue Slimy Vine",
+      "uid": "tconstruct:slime_vine_blue_mid",
+      "meta": 0,
+      "color": "#b4b4b4",
+      "alpha": 0.2
+    },
+    {
+      "name": "Blue Stained Clay",
+      "uid": "minecraft:stained_hardened_clay",
+      "meta": 11,
+      "color": "#4a3b5b"
+    },
+    {
+      "name": "Blue Stained Glass",
+      "uid": "minecraft:stained_glass",
+      "meta": 11,
+      "color": "#334cb2",
+      "alpha": 0.4
+    },
+    {
+      "name": "Blue Stained Glass Pane",
+      "uid": "minecraft:stained_glass_pane",
+      "meta": 11,
+      "color": "#334cb2",
+      "alpha": 0.4
+    },
+    {
+      "name": "Blue Tallow Candle",
+      "uid": "thaumcraft:candle",
+      "meta": 11,
+      "color": "#f2e1c0"
+    },
+    {
+      "name": "Blue Wool",
+      "uid": "minecraft:wool",
+      "meta": 11,
+      "color": "#2e388d"
+    },
+    {
+      "name": "Bone Cage",
+      "uid": "intangible:bonecage",
+      "meta": 0,
+      "color": "#7d7d7d"
+    },
+    {
+      "name": "Book",
+      "uid": "customnpcs:npcBook",
+      "meta": 0,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Bookshelf",
+      "uid": "minecraft:bookshelf",
+      "meta": 0,
+      "color": "#6b5839"
+    },
+    {
+      "name": "Border",
+      "uid": "customnpcs:npcBorder",
+      "meta": 0,
+      "color": "#ff8989"
+    },
+    {
+      "name": "Brain in a Jar",
+      "uid": "thaumcraft:jar",
+      "meta": 2,
+      "color": "#849fbe",
+      "alpha": 0.4
+    },
+    {
+      "name": "Brass Block",
+      "uid": "thaumcraft:metal",
+      "meta": 4,
+      "color": "#ab823b"
+    },
+    {
+      "name": "Brewing Stand",
+      "uid": "minecraft:brewing_stand",
+      "meta": 0,
+      "color": "#7c6751"
+    },
+    {
+      "name": "Brick Stairs",
+      "uid": "minecraft:brick_stairs",
+      "meta": 0,
+      "color": "#926356"
+    },
+    {
+      "name": "Bricks",
+      "uid": "minecraft:brick_block",
+      "meta": 0,
+      "color": "#926356"
+    },
+    {
+      "name": "Bricks Slab",
+      "uid": "minecraft:stone_slab",
+      "meta": 4,
+      "color": "#926356"
+    },
+    {
+      "name": "Brown Carpet",
+      "uid": "minecraft:carpet",
+      "meta": 12,
+      "color": "#4f321f"
+    },
+    {
+      "name": "Brown Nitor",
+      "uid": "thaumcraft:nitor",
+      "meta": 12,
+      "color": "#959595"
+    },
+    {
+      "name": "Brown Stained Clay",
+      "uid": "minecraft:stained_hardened_clay",
+      "meta": 12,
+      "color": "#4d3323"
+    },
+    {
+      "name": "Brown Stained Glass",
+      "uid": "minecraft:stained_glass",
+      "meta": 12,
+      "color": "#664c33",
+      "alpha": 0.4
+    },
+    {
+      "name": "Brown Stained Glass Pane",
+      "uid": "minecraft:stained_glass_pane",
+      "meta": 12,
+      "color": "#664c33",
+      "alpha": 0.4
+    },
+    {
+      "name": "Brown Tallow Candle",
+      "uid": "thaumcraft:candle",
+      "meta": 12,
+      "color": "#f2e1c0"
+    },
+    {
+      "name": "Brown Wool",
+      "uid": "minecraft:wool",
+      "meta": 12,
+      "color": "#4f321f"
+    },
+    {
+      "name": "Builder Block",
+      "uid": "customnpcs:npcBuilderBlock",
+      "meta": 0,
+      "color": "#987166"
+    },
+    {
+      "name": "Button",
+      "uid": "minecraft:stone_button",
+      "meta": 0,
+      "color": "#7d7d7d"
+    },
+    {
+      "name": "Button",
+      "uid": "minecraft:wooden_button",
+      "meta": 0,
+      "color": "#9c7f4e"
+    },
+    {
+      "name": "Cactus",
+      "uid": "minecraft:cactus",
+      "meta": 0,
+      "color": "#0d6618"
+    },
+    {
+      "name": "Campfire",
+      "uid": "customnpcs:npcCampfire",
+      "meta": 0,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Campfire",
+      "uid": "customnpcs:npcCampfireUnlit",
+      "meta": 0,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Candle",
+      "uid": "customnpcs:npcCandle",
+      "meta": 0,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Candle",
+      "uid": "customnpcs:npcCandleUnlit",
+      "meta": 0,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Carpentry Bench",
+      "uid": "customnpcs:npcCarpentyBench",
+      "meta": 0,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Carpentry Bench",
+      "uid": "customnpcs:npcCarpentyBench",
+      "meta": 1,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Carpet",
+      "uid": "minecraft:carpet",
+      "meta": 0,
+      "color": "#dddddd"
+    },
+    {
+      "name": "Carrot",
+      "uid": "minecraft:carrots",
+      "meta": 0,
+      "color": "#01ab10"
+    },
+    {
+      "name": "Casting Basin",
+      "uid": "tconstruct:casting",
+      "meta": 1,
+      "color": "#3d3d3d"
+    },
+    {
+      "name": "Casting Table",
+      "uid": "tconstruct:casting",
+      "meta": 0,
+      "color": "#414141"
+    },
+    {
+      "name": "Cauldron",
+      "uid": "minecraft:cauldron",
+      "meta": 0,
+      "color": "#3e3e3e"
+    },
+    {
+      "name": "Chair",
+      "uid": "customnpcs:npcChair",
+      "meta": 0,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Chair",
+      "uid": "customnpcs:npcChair",
+      "meta": 1,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Chair",
+      "uid": "customnpcs:npcChair",
+      "meta": 2,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Chair",
+      "uid": "customnpcs:npcChair",
+      "meta": 3,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Chair",
+      "uid": "customnpcs:npcChair",
+      "meta": 4,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Chair",
+      "uid": "customnpcs:npcChair",
+      "meta": 5,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Chest",
+      "uid": "minecraft:chest",
+      "meta": 0,
+      "color": "#9c7f4e"
+    },
+    {
+      "name": "Chiseled Fluid Bit Tank",
+      "uid": "chiselsandbits:bittank",
+      "meta": 0,
+      "color": "#665131"
+    },
+    {
+      "name": "Chiseled Quartz Block",
+      "uid": "minecraft:quartz_block",
+      "meta": 1,
+      "color": "#e7e4dc"
+    },
+    {
+      "name": "Chiseled Red Sandstone",
+      "uid": "minecraft:red_sandstone",
+      "meta": 1,
+      "color": "#a2521b"
+    },
+    {
+      "name": "Chiseled Sandstone",
+      "uid": "minecraft:sandstone",
+      "meta": 1,
+      "color": "#d7d09a"
+    },
+    {
+      "name": "Chiseled Stone Bricks",
+      "uid": "minecraft:stonebrick",
+      "meta": 3,
+      "color": "#767676"
+    },
+    {
+      "name": "Chunk Loader",
+      "uid": "neotech:chunkLoader",
+      "meta": 0,
+      "color": "#f9ec4e"
+    },
+    {
+      "name": "Cinderpearl",
+      "uid": "thaumcraft:cinderpearl",
+      "meta": 0,
+      "color": "#79663a"
+    },
+    {
+      "name": "Cinnabar Ore",
+      "uid": "thaumcraft:ore_cinnabar",
+      "meta": 0,
+      "color": "#797171"
+    },
+    {
+      "name": "Circuit Stamper",
+      "uid": "intangible:stamper",
+      "meta": 0,
+      "color": "#dbdbdb"
+    },
+    {
+      "name": "Clay",
+      "uid": "minecraft:clay",
+      "meta": 0,
+      "color": "#9ea4b0"
+    },
+    {
+      "name": "Coal Ore",
+      "uid": "minecraft:coal_ore",
+      "meta": 0,
+      "color": "#737373"
+    },
+    {
+      "name": "Coarse Dirt",
+      "uid": "minecraft:dirt",
+      "meta": 1,
+      "color": "#77553b"
+    },
+    {
+      "name": "Cobalt Ore",
+      "uid": "tconstruct:ore",
+      "meta": 0,
+      "color": "#0b3685"
+    },
+    {
+      "name": "Cobblestone",
+      "uid": "minecraft:cobblestone",
+      "meta": 0,
+      "color": "#7a7a7a"
+    },
+    {
+      "name": "Cobblestone Slab",
+      "uid": "minecraft:stone_slab",
+      "meta": 3,
+      "color": "#7a7a7a"
+    },
+    {
+      "name": "Cobblestone Stairs",
+      "uid": "minecraft:stone_stairs",
+      "meta": 0,
+      "color": "#7a7a7a"
+    },
+    {
+      "name": "Cobblestone Wall",
+      "uid": "minecraft:cobblestone_wall",
+      "meta": 0,
+      "color": "#7a7a7a"
+    },
+    {
+      "name": "Cobweb",
+      "uid": "minecraft:web",
+      "meta": 0,
+      "color": "#dcdcdc"
+    },
+    {
+      "name": "Command Block",
+      "uid": "minecraft:command_block",
+      "meta": 0,
+      "color": "#b2896f"
+    },
+    {
+      "name": "Common Crate",
+      "uid": "thaumcraft:loot_crate",
+      "meta": 0,
+      "color": "#3b312d"
+    },
+    {
+      "name": "Common Urn",
+      "uid": "thaumcraft:loot_urn",
+      "meta": 0,
+      "color": "#563f31"
+    },
+    {
+      "name": "Concussion Charge",
+      "uid": "enderzoo:blockConcussionCharge",
+      "meta": 0,
+      "color": "#4f5651"
+    },
+    {
+      "name": "Confusing Charge",
+      "uid": "enderzoo:blockConfusingCharge",
+      "meta": 0,
+      "color": "#4cae73"
+    },
+    {
+      "name": "Congealed Blood Slime Block",
+      "uid": "tconstruct:slime_congealed",
+      "meta": 3,
+      "color": "#af0100"
+    },
+    {
+      "name": "Congealed Blue Slime Block",
+      "uid": "tconstruct:slime_congealed",
+      "meta": 1,
+      "color": "#00c3c6"
+    },
+    {
+      "name": "Congealed Green Slime Block",
+      "uid": "tconstruct:slime_congealed",
+      "meta": 0,
+      "color": "#00c74c"
+    },
+    {
+      "name": "Congealed Magma Slime Block",
+      "uid": "tconstruct:slime_congealed",
+      "meta": 4,
+      "color": "#ff920d"
+    },
+    {
+      "name": "Congealed Purple Slime Block",
+      "uid": "tconstruct:slime_congealed",
+      "meta": 2,
+      "color": "#aa45f3"
+    },
+    {
+      "name": "Consecrated Soil",
+      "uid": "tconstruct:soil",
+      "meta": 4,
+      "color": "#684224"
+    },
+    {
+      "name": "Copper Chest",
+      "uid": "ironchest:BlockIronChest",
+      "meta": 3,
+      "color": "#7c007c"
+    },
+    {
+      "name": "Copper Ore",
+      "uid": "neotech:oreCopper",
+      "meta": 0,
+      "color": "#857d74"
+    },
+    {
+      "name": "Copy Block",
+      "uid": "customnpcs:npcCopyBlock",
+      "meta": 0,
+      "color": "#afafaf"
+    },
+    {
+      "name": "Corporeal Reconstructor",
+      "uid": "intangible:reconstructor",
+      "meta": 0,
+      "color": "#ece9e2"
+    },
+    {
+      "name": "Cracked Seared Bricks",
+      "uid": "tconstruct:seared",
+      "meta": 4,
+      "color": "#333333"
+    },
+    {
+      "name": "Cracked Stone Bricks",
+      "uid": "minecraft:stonebrick",
+      "meta": 2,
+      "color": "#767676"
+    },
+    {
+      "name": "Crafting Station",
+      "uid": "tconstruct:tooltables",
+      "meta": 0,
+      "color": "#835835"
+    },
+    {
+      "name": "Crafting Table",
+      "uid": "minecraft:crafting_table",
+      "meta": 0,
+      "color": "#735f3f"
+    },
+    {
+      "name": "Crate",
+      "uid": "customnpcs:npcCrate",
+      "meta": 0,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Crate",
+      "uid": "customnpcs:npcCrate",
+      "meta": 1,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Crate",
+      "uid": "customnpcs:npcCrate",
+      "meta": 2,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Crate",
+      "uid": "customnpcs:npcCrate",
+      "meta": 3,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Crate",
+      "uid": "customnpcs:npcCrate",
+      "meta": 4,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Crate",
+      "uid": "customnpcs:npcCrate",
+      "meta": 5,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Creative Fluid Tank",
+      "uid": "neotech:creativeTank",
+      "meta": 0,
+      "color": "#51d975",
+      "alpha": 0.4
+    },
+    {
+      "name": "Creative RF Storage",
+      "uid": "neotech:creativeRFStorage",
+      "meta": 0,
+      "color": "#4e6b76"
+    },
+    {
+      "name": "Crimson Cult Banner",
+      "uid": "thaumcraft:banner",
+      "meta": 0,
+      "color": "#281d1a"
+    },
+    {
+      "name": "Crimson Cult Banner",
+      "uid": "thaumcraft:banner",
+      "meta": 1,
+      "color": "#281d1a"
+    },
+    {
+      "name": "Crucible",
+      "uid": "thaumcraft:crucible",
+      "meta": 0,
+      "color": "#383838"
+    },
+    {
+      "name": "Crusted Opening",
+      "uid": "thaumcraft:eldritch",
+      "meta": 7,
+      "color": "#494130"
+    },
+    {
+      "name": "Crusted Stone",
+      "uid": "thaumcraft:stone",
+      "meta": 6,
+      "color": "#494130"
+    },
+    {
+      "name": "Crusted Taint",
+      "uid": "thaumcraft:taint",
+      "meta": 0,
+      "color": "#2f143d"
+    },
+    {
+      "name": "Crystal",
+      "uid": "customnpcs:npcCrystalBlock",
+      "meta": 0,
+      "color": "#dcf0fa",
+      "alpha": 0.4
+    },
+    {
+      "name": "Crystal",
+      "uid": "customnpcs:npcCrystalBlock",
+      "meta": 1,
+      "color": "#dcf0fa",
+      "alpha": 0.4
+    },
+    {
+      "name": "Crystal",
+      "uid": "customnpcs:npcCrystalBlock",
+      "meta": 2,
+      "color": "#dcf0fa",
+      "alpha": 0.4
+    },
+    {
+      "name": "Crystal",
+      "uid": "customnpcs:npcCrystalBlock",
+      "meta": 3,
+      "color": "#dcf0fa",
+      "alpha": 0.4
+    },
+    {
+      "name": "Crystal",
+      "uid": "customnpcs:npcCrystalBlock",
+      "meta": 4,
+      "color": "#dcf0fa",
+      "alpha": 0.4
+    },
+    {
+      "name": "Crystal",
+      "uid": "customnpcs:npcCrystalBlock",
+      "meta": 5,
+      "color": "#dcf0fa",
+      "alpha": 0.4
+    },
+    {
+      "name": "Crystal",
+      "uid": "customnpcs:npcCrystalBlock",
+      "meta": 6,
+      "color": "#dcf0fa",
+      "alpha": 0.4
+    },
+    {
+      "name": "Crystal",
+      "uid": "customnpcs:npcCrystalBlock",
+      "meta": 7,
+      "color": "#dcf0fa",
+      "alpha": 0.4
+    },
+    {
+      "name": "Crystal",
+      "uid": "customnpcs:npcCrystalBlock",
+      "meta": 8,
+      "color": "#dcf0fa",
+      "alpha": 0.4
+    },
+    {
+      "name": "Crystal",
+      "uid": "customnpcs:npcCrystalBlock",
+      "meta": 9,
+      "color": "#dcf0fa",
+      "alpha": 0.4
+    },
+    {
+      "name": "Crystal",
+      "uid": "customnpcs:npcCrystalBlock",
+      "meta": 10,
+      "color": "#dcf0fa",
+      "alpha": 0.4
+    },
+    {
+      "name": "Crystal",
+      "uid": "customnpcs:npcCrystalBlock",
+      "meta": 11,
+      "color": "#dcf0fa",
+      "alpha": 0.4
+    },
+    {
+      "name": "Crystal",
+      "uid": "customnpcs:npcCrystalBlock",
+      "meta": 12,
+      "color": "#dcf0fa",
+      "alpha": 0.4
+    },
+    {
+      "name": "Crystal",
+      "uid": "customnpcs:npcCrystalBlock",
+      "meta": 13,
+      "color": "#dcf0fa",
+      "alpha": 0.4
+    },
+    {
+      "name": "Crystal",
+      "uid": "customnpcs:npcCrystalBlock",
+      "meta": 14,
+      "color": "#dcf0fa",
+      "alpha": 0.4
+    },
+    {
+      "name": "Crystal",
+      "uid": "customnpcs:npcCrystalBlock",
+      "meta": 15,
+      "color": "#dcf0fa",
+      "alpha": 0.4
+    },
+    {
+      "name": "Crystal Chest",
+      "uid": "ironchest:BlockIronChest",
+      "meta": 5,
+      "color": "#7c007c"
+    },
+    {
+      "name": "Cyan Carpet",
+      "uid": "minecraft:carpet",
+      "meta": 9,
+      "color": "#2e6e89"
+    },
+    {
+      "name": "Cyan Nitor",
+      "uid": "thaumcraft:nitor",
+      "meta": 9,
+      "color": "#959595"
+    },
+    {
+      "name": "Cyan Stained Clay",
+      "uid": "minecraft:stained_hardened_clay",
+      "meta": 9,
+      "color": "#565b5b"
+    },
+    {
+      "name": "Cyan Stained Glass",
+      "uid": "minecraft:stained_glass",
+      "meta": 9,
+      "color": "#4c7f99",
+      "alpha": 0.4
+    },
+    {
+      "name": "Cyan Stained Glass Pane",
+      "uid": "minecraft:stained_glass_pane",
+      "meta": 9,
+      "color": "#4c7f99",
+      "alpha": 0.4
+    },
+    {
+      "name": "Cyan Tallow Candle",
+      "uid": "thaumcraft:candle",
+      "meta": 9,
+      "color": "#f2e1c0"
+    },
+    {
+      "name": "Cyan Wool",
+      "uid": "minecraft:wool",
+      "meta": 9,
+      "color": "#2e6e89"
+    },
+    {
+      "name": "Dandelion",
+      "uid": "minecraft:yellow_flower",
+      "meta": 0,
+      "color": "#afb401"
+    },
+    {
+      "name": "Dark Oak Door",
+      "uid": "minecraft:dark_oak_door",
+      "meta": 0,
+      "color": "#412c17"
+    },
+    {
+      "name": "Dark Oak Fence",
+      "uid": "minecraft:dark_oak_fence",
+      "meta": 0,
+      "color": "#3d2712",
+      "alpha": 0.4
+    },
+    {
+      "name": "Dark Oak Fence Gate",
+      "uid": "minecraft:dark_oak_fence_gate",
+      "meta": 0,
+      "color": "#3d2712",
+      "alpha": 0.4
+    },
+    {
+      "name": "Dark Oak Leaves",
+      "uid": "minecraft:leaves2",
+      "meta": 1,
+      "color": "#878787"
+    },
+    {
+      "name": "Dark Oak Sapling",
+      "uid": "minecraft:sapling",
+      "meta": 5,
+      "color": "#38561c"
+    },
+    {
+      "name": "Dark Oak Wood",
+      "uid": "minecraft:log2",
+      "meta": 1,
+      "color": "#342817"
+    },
+    {
+      "name": "Dark Oak Wood Planks",
+      "uid": "minecraft:planks",
+      "meta": 5,
+      "color": "#3d2712"
+    },
+    {
+      "name": "Dark Oak Wood Slab",
+      "uid": "minecraft:wooden_slab",
+      "meta": 5,
+      "color": "#3d2712"
+    },
+    {
+      "name": "Dark Oak Wood Stairs",
+      "uid": "minecraft:dark_oak_stairs",
+      "meta": 0,
+      "color": "#3d2712"
+    },
+    {
+      "name": "Dark Prismarine",
+      "uid": "minecraft:prismarine",
+      "meta": 2,
+      "color": "#3b574b"
+    },
+    {
+      "name": "Daylight Sensor",
+      "uid": "minecraft:daylight_detector",
+      "meta": 0,
+      "color": "#82745e"
+    },
+    {
+      "name": "Daylight Sensor",
+      "uid": "minecraft:daylight_detector_inverted",
+      "meta": 0,
+      "color": "#6a6d70"
+    },
+    {
+      "name": "Dead Bush",
+      "uid": "minecraft:deadbush",
+      "meta": 0,
+      "color": "#7b4f19"
+    },
+    {
+      "name": "Deadly Void",
+      "uid": "thaumcraft:vacuum",
+      "meta": 0,
+      "color": "#7c007c"
+    },
+    {
+      "name": "Decanter",
+      "uid": "intangible:decanter",
+      "meta": 0,
+      "color": "#daf0f4",
+      "alpha": 0.4
+    },
+    {
+      "name": "Defensive Crystal",
+      "uid": "intangible:defense",
+      "meta": 0,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Degraded Taint Dust",
+      "uid": "thaumcraft:taint_dust",
+      "meta": 0,
+      "color": "#a198ab"
+    },
+    {
+      "name": "Deity Fabricator",
+      "uid": "intangible:deitybuilder",
+      "meta": 0,
+      "color": "#7d7d7d"
+    },
+    {
+      "name": "Deity Hammer",
+      "uid": "intangible:deityhammer",
+      "meta": 0,
+      "color": "#7d7d7d"
+    },
+    {
+      "name": "Detector Rail",
+      "uid": "minecraft:detector_rail",
+      "meta": 0,
+      "color": "#786559"
+    },
+    {
+      "name": "Diamond Chest",
+      "uid": "ironchest:BlockIronChest",
+      "meta": 2,
+      "color": "#7c007c"
+    },
+    {
+      "name": "Diamond Fluid Tank",
+      "uid": "neotech:diamondTank",
+      "meta": 0,
+      "color": "#61dbd5",
+      "alpha": 0.4
+    },
+    {
+      "name": "Diamond Ore",
+      "uid": "minecraft:diamond_ore",
+      "meta": 0,
+      "color": "#818c8f"
+    },
+    {
+      "name": "Diorite",
+      "uid": "minecraft:stone",
+      "meta": 3,
+      "color": "#b3b3b6"
+    },
+    {
+      "name": "Directional Essentia Tube",
+      "uid": "thaumcraft:tube",
+      "meta": 3,
+      "color": "#4f4a42"
+    },
+    {
+      "name": "Dirt",
+      "uid": "minecraft:dirt",
+      "meta": 0,
+      "color": "#866043"
+    },
+    {
+      "name": "Dirt",
+      "uid": "minecraft:dirt",
+      "meta": 2,
+      "color": "#7a5739"
+    },
+    {
+      "name": "DirtChest 9000!",
+      "uid": "ironchest:BlockIronChest",
+      "meta": 7,
+      "color": "#7c007c"
+    },
+    {
+      "name": "Dispenser",
+      "uid": "minecraft:dispenser",
+      "meta": 0,
+      "color": "#606060"
+    },
+    {
+      "name": "Doomed Stone",
+      "uid": "intangible:soulcage",
+      "meta": 4,
+      "color": "#666666"
+    },
+    {
+      "name": "Dragon Egg",
+      "uid": "minecraft:dragon_egg",
+      "meta": 0,
+      "color": "#0c090f"
+    },
+    {
+      "name": "Dropper",
+      "uid": "minecraft:dropper",
+      "meta": 0,
+      "color": "#606060"
+    },
+    {
+      "name": "Duel Crafter",
+      "uid": "neotech:blockCrafter",
+      "meta": 0,
+      "color": "#735f3f"
+    },
+    {
+      "name": "Earth Crystal",
+      "uid": "thaumcraft:crystal_terra",
+      "meta": 0,
+      "color": "#bbbdbc",
+      "alpha": 0.4
+    },
+    {
+      "name": "Eldritch Altar",
+      "uid": "thaumcraft:eldritch",
+      "meta": 0,
+      "color": "#19161e"
+    },
+    {
+      "name": "Eldritch Capstone",
+      "uid": "thaumcraft:eldritch",
+      "meta": 1,
+      "color": "#19161e"
+    },
+    {
+      "name": "Eldritch Infusion Pillar",
+      "uid": "thaumcraft:pillar",
+      "meta": 10,
+      "color": "#19161f"
+    },
+    {
+      "name": "Eldritch Obelisk",
+      "uid": "thaumcraft:eldritch",
+      "meta": 2,
+      "color": "#19161e"
+    },
+    {
+      "name": "Eldritch Obelisk",
+      "uid": "thaumcraft:eldritch",
+      "meta": 3,
+      "color": "#19161e"
+    },
+    {
+      "name": "Eldritch Pedestal",
+      "uid": "thaumcraft:pedestal",
+      "meta": 1,
+      "color": "#17141c"
+    },
+    {
+      "name": "Eldritch Portal",
+      "uid": "thaumcraft:eldritch",
+      "meta": 6,
+      "color": "#7c007c"
+    },
+    {
+      "name": "Eldritch Stone",
+      "uid": "thaumcraft:stone",
+      "meta": 4,
+      "color": "#19161e"
+    },
+    {
+      "name": "Eldritch Stone Slab",
+      "uid": "thaumcraft:slab_stone",
+      "meta": 3,
+      "color": "#18161e"
+    },
+    {
+      "name": "Electric Alloyer",
+      "uid": "neotech:alloyer",
+      "meta": 0,
+      "color": "#716262"
+    },
+    {
+      "name": "Electric Centrifuge",
+      "uid": "neotech:centrifuge",
+      "meta": 0,
+      "color": "#796f6f"
+    },
+    {
+      "name": "Electric Crucible",
+      "uid": "neotech:electricCrucible",
+      "meta": 0,
+      "color": "#767575"
+    },
+    {
+      "name": "Electric Crusher",
+      "uid": "neotech:electricCrusher",
+      "meta": 0,
+      "color": "#5c5c5c"
+    },
+    {
+      "name": "Electric Furnace",
+      "uid": "neotech:electricFurnace",
+      "meta": 0,
+      "color": "#728476"
+    },
+    {
+      "name": "Electric Logger",
+      "uid": "neotech:treeFarm",
+      "meta": 0,
+      "color": "#7a7874"
+    },
+    {
+      "name": "Electric Pump",
+      "uid": "neotech:pump",
+      "meta": 0,
+      "color": "#767786"
+    },
+    {
+      "name": "Electric Solidifier",
+      "uid": "neotech:electricSolidifier",
+      "meta": 0,
+      "color": "#827272"
+    },
+    {
+      "name": "Elite RF Storage",
+      "uid": "neotech:eliteRFStorage",
+      "meta": 0,
+      "color": "#767c4f"
+    },
+    {
+      "name": "Elite Solar Panel",
+      "uid": "neotech:solarPanelT3",
+      "meta": 0,
+      "color": "#3d8ffb"
+    },
+    {
+      "name": "Emerald Ore",
+      "uid": "minecraft:emerald_ore",
+      "meta": 0,
+      "color": "#6d8074"
+    },
+    {
+      "name": "Empty space",
+      "uid": "thaumcraft:translucent",
+      "meta": 2,
+      "color": "#808080",
+      "alpha": 0.4
+    },
+    {
+      "name": "Emptying Essentia Transfuser",
+      "uid": "thaumcraft:essentia_output",
+      "meta": 0,
+      "color": "#675331"
+    },
+    {
+      "name": "Enchantment Table",
+      "uid": "minecraft:enchanting_table",
+      "meta": 0,
+      "color": "#12101b"
+    },
+    {
+      "name": "End Portal",
+      "uid": "minecraft:end_portal_frame",
+      "meta": 0,
+      "color": "#93a07b"
+    },
+    {
+      "name": "End Stone",
+      "uid": "minecraft:end_stone",
+      "meta": 0,
+      "color": "#dddfa5"
+    },
+    {
+      "name": "Ender Charge",
+      "uid": "enderzoo:blockEnderCharge",
+      "meta": 0,
+      "color": "#458579"
+    },
+    {
+      "name": "Ender Chest",
+      "uid": "minecraft:ender_chest",
+      "meta": 0,
+      "color": "#14121d"
+    },
+    {
+      "name": "Energy Interface Pipe",
+      "uid": "neotech:pipeEnergyBasicInterface",
+      "meta": 0,
+      "color": "#bd9e9e"
+    },
+    {
+      "name": "Entropy Crystal",
+      "uid": "thaumcraft:crystal_perditio",
+      "meta": 0,
+      "color": "#bbbdbc",
+      "alpha": 0.4
+    },
+    {
+      "name": "Essentia Buffer",
+      "uid": "thaumcraft:tube",
+      "meta": 5,
+      "color": "#4f4a42"
+    },
+    {
+      "name": "Essentia Centrifuge",
+      "uid": "thaumcraft:centrifuge",
+      "meta": 0,
+      "color": "#30221e"
+    },
+    {
+      "name": "Essentia Crystallizer",
+      "uid": "thaumcraft:crystallizer",
+      "meta": 0,
+      "color": "#30221e"
+    },
+    {
+      "name": "Essentia Mirror",
+      "uid": "thaumcraft:mirror_essentia",
+      "meta": 0,
+      "color": "#383838"
+    },
+    {
+      "name": "Essentia Smeltery",
+      "uid": "thaumcraft:smelter_basic",
+      "meta": 0,
+      "color": "#7b6743"
+    },
+    {
+      "name": "Essentia Tube",
+      "uid": "thaumcraft:tube",
+      "meta": 0,
+      "color": "#4f4a42"
+    },
+    {
+      "name": "Essentia Valve",
+      "uid": "thaumcraft:tube",
+      "meta": 1,
+      "color": "#4f4a42"
+    },
+    {
+      "name": "Ethereal Bloom",
+      "uid": "thaumcraft:bloom",
+      "meta": 0,
+      "color": "#468a68"
+    },
+    {
+      "name": "Everfull Urn",
+      "uid": "thaumcraft:water_jug",
+      "meta": 0,
+      "color": "#855555"
+    },
+    {
+      "name": "Fancy Seared Bricks",
+      "uid": "tconstruct:seared",
+      "meta": 5,
+      "color": "#363636"
+    },
+    {
+      "name": "Farmland",
+      "uid": "minecraft:farmland",
+      "meta": 0,
+      "color": "#866043"
+    },
+    {
+      "name": "Faucet",
+      "uid": "tconstruct:faucet",
+      "meta": 0,
+      "color": "#363636"
+    },
+    {
+      "name": "Fibrous Taint",
+      "uid": "thaumcraft:taint_fibre",
+      "meta": 0,
+      "color": "#3a194b"
+    },
+    {
+      "name": "Filling Essentia Transfuser",
+      "uid": "thaumcraft:essentia_input",
+      "meta": 0,
+      "color": "#675331"
+    },
+    {
+      "name": "Filtered Essentia Tube",
+      "uid": "thaumcraft:tube",
+      "meta": 4,
+      "color": "#4f4a42"
+    },
+    {
+      "name": "Fire Crystal",
+      "uid": "thaumcraft:crystal_ignis",
+      "meta": 0,
+      "color": "#bbbdbc",
+      "alpha": 0.4
+    },
+    {
+      "name": "Firewood",
+      "uid": "tconstruct:firewood",
+      "meta": 1,
+      "color": "#582b28"
+    },
+    {
+      "name": "Flower Pot",
+      "uid": "minecraft:flower_pot",
+      "meta": 0,
+      "color": "#764133"
+    },
+    {
+      "name": "Fluid Generator",
+      "uid": "neotech:fluidGenerator",
+      "meta": 0,
+      "color": "#646d68"
+    },
+    {
+      "name": "Fluid Interface Pipe",
+      "uid": "neotech:pipeFluidBasicInterface",
+      "meta": 0,
+      "color": "#998cc3"
+    },
+    {
+      "name": "Flux Crystal",
+      "uid": "thaumcraft:crystal_vitium",
+      "meta": 0,
+      "color": "#bbbdbc",
+      "alpha": 0.4
+    },
+    {
+      "name": "Flux Goo",
+      "uid": "thaumcraft:flux_goo",
+      "meta": 0,
+      "color": "#831aa3"
+    },
+    {
+      "name": "Focal Manipulator",
+      "uid": "thaumcraft:wand_workbench",
+      "meta": 0,
+      "color": "#4f4d46"
+    },
+    {
+      "name": "Funnel",
+      "uid": "intangible:funnel",
+      "meta": 0,
+      "color": "#daf0f4",
+      "alpha": 0.4
+    },
+    {
+      "name": "Furnace",
+      "uid": "minecraft:furnace",
+      "meta": 0,
+      "color": "#4e4e4e"
+    },
+    {
+      "name": "Furnace",
+      "uid": "minecraft:lit_furnace",
+      "meta": 0,
+      "color": "#7d6655"
+    },
+    {
+      "name": "Furnace Generator",
+      "uid": "neotech:furnaceGenerator",
+      "meta": 0,
+      "color": "#78736e"
+    },
+    {
+      "name": "Glass",
+      "uid": "minecraft:glass",
+      "meta": 0,
+      "color": "#daf0f4",
+      "alpha": 0.4
+    },
+    {
+      "name": "Glass Pane",
+      "uid": "minecraft:glass_pane",
+      "meta": 0,
+      "color": "#daf0f4",
+      "alpha": 0.4
+    },
+    {
+      "name": "Glimmer",
+      "uid": "thaumcraft:effect",
+      "meta": 2,
+      "color": "#7c007c"
+    },
+    {
+      "name": "Glowing Crusted Stone",
+      "uid": "thaumcraft:stone",
+      "meta": 7,
+      "color": "#5b4f30"
+    },
+    {
+      "name": "Glowstone",
+      "uid": "minecraft:glowstone",
+      "meta": 0,
+      "color": "#8f7645",
+      "alpha": 0.4
+    },
+    {
+      "name": "Glyphed Stone",
+      "uid": "thaumcraft:stone",
+      "meta": 11,
+      "color": "#3c3729"
+    },
+    {
+      "name": "Gold Chest",
+      "uid": "ironchest:BlockIronChest",
+      "meta": 1,
+      "color": "#7c007c"
+    },
+    {
+      "name": "Gold Fluid Tank",
+      "uid": "neotech:goldTank",
+      "meta": 0,
+      "color": "#f9ec4e",
+      "alpha": 0.4
+    },
+    {
+      "name": "Gold Ore",
+      "uid": "minecraft:gold_ore",
+      "meta": 0,
+      "color": "#8f8b7c"
+    },
+    {
+      "name": "Golem Fabricator",
+      "uid": "intangible:golemfactory",
+      "meta": 0,
+      "color": "#7d7d7d"
+    },
+    {
+      "name": "Golem Part Assembler",
+      "uid": "intangible:golempartassembler",
+      "meta": 0,
+      "color": "#dbdbdb"
+    },
+    {
+      "name": "Golem Press",
+      "uid": "thaumcraft:golem_builder",
+      "meta": 0,
+      "color": "#696969"
+    },
+    {
+      "name": "Gourd",
+      "uid": "intangible:gourd",
+      "meta": 0,
+      "color": "#daf0f4",
+      "alpha": 0.4
+    },
+    {
+      "name": "Granite",
+      "uid": "minecraft:stone",
+      "meta": 1,
+      "color": "#997162"
+    },
+    {
+      "name": "Grass Block",
+      "uid": "minecraft:grass",
+      "meta": 0,
+      "color": "#866043"
+    },
+    {
+      "name": "Gravel",
+      "uid": "minecraft:gravel",
+      "meta": 0,
+      "color": "#7e7c7a"
+    },
+    {
+      "name": "Graveyard Soil",
+      "uid": "tconstruct:soil",
+      "meta": 3,
+      "color": "#392a10"
+    },
+    {
+      "name": "Gray Carpet",
+      "uid": "minecraft:carpet",
+      "meta": 7,
+      "color": "#404040"
+    },
+    {
+      "name": "Gray Nitor",
+      "uid": "thaumcraft:nitor",
+      "meta": 7,
+      "color": "#959595"
+    },
+    {
+      "name": "Gray Stained Clay",
+      "uid": "minecraft:stained_hardened_clay",
+      "meta": 7,
+      "color": "#392a23"
+    },
+    {
+      "name": "Gray Stained Glass",
+      "uid": "minecraft:stained_glass",
+      "meta": 7,
+      "color": "#4c4c4c",
+      "alpha": 0.4
+    },
+    {
+      "name": "Gray Stained Glass Pane",
+      "uid": "minecraft:stained_glass_pane",
+      "meta": 7,
+      "color": "#4c4c4c",
+      "alpha": 0.4
+    },
+    {
+      "name": "Gray Tallow Candle",
+      "uid": "thaumcraft:candle",
+      "meta": 7,
+      "color": "#f2e1c0"
+    },
+    {
+      "name": "Gray Wool",
+      "uid": "minecraft:wool",
+      "meta": 7,
+      "color": "#404040"
+    },
+    {
+      "name": "Greatwood Leaves",
+      "uid": "thaumcraft:leaf",
+      "meta": 0,
+      "color": "#777777"
+    },
+    {
+      "name": "Greatwood Log",
+      "uid": "thaumcraft:log",
+      "meta": 0,
+      "color": "#372b27"
+    },
+    {
+      "name": "Greatwood Planks",
+      "uid": "thaumcraft:plank",
+      "meta": 0,
+      "color": "#30221e"
+    },
+    {
+      "name": "Greatwood Sapling",
+      "uid": "thaumcraft:sapling",
+      "meta": 0,
+      "color": "#324529"
+    },
+    {
+      "name": "Greatwood Slab",
+      "uid": "thaumcraft:slab_wood",
+      "meta": 0,
+      "color": "#30221e"
+    },
+    {
+      "name": "Greatwood Stairs",
+      "uid": "thaumcraft:greatwood_stairs",
+      "meta": 0,
+      "color": "#30221e"
+    },
+    {
+      "name": "Green Carpet",
+      "uid": "minecraft:carpet",
+      "meta": 13,
+      "color": "#35461b"
+    },
+    {
+      "name": "Green Nitor",
+      "uid": "thaumcraft:nitor",
+      "meta": 13,
+      "color": "#959595"
+    },
+    {
+      "name": "Green Slime Block",
+      "uid": "tconstruct:slime",
+      "meta": 0,
+      "color": "#78c865"
+    },
+    {
+      "name": "Green Slimy Dirt",
+      "uid": "tconstruct:slime_dirt",
+      "meta": 0,
+      "color": "#639865"
+    },
+    {
+      "name": "Green Slimy Grass",
+      "uid": "tconstruct:slime_grass",
+      "meta": 2,
+      "color": "#629298"
+    },
+    {
+      "name": "Green Slimy Grass",
+      "uid": "tconstruct:slime_grass",
+      "meta": 7,
+      "color": "#629298"
+    },
+    {
+      "name": "Green Slimy Grass",
+      "uid": "tconstruct:slime_grass",
+      "meta": 12,
+      "color": "#629298"
+    },
+    {
+      "name": "Green Slimy Mud",
+      "uid": "tconstruct:soil",
+      "meta": 1,
+      "color": "#2c5805"
+    },
+    {
+      "name": "Green Stained Clay",
+      "uid": "minecraft:stained_hardened_clay",
+      "meta": 13,
+      "color": "#4c532a"
+    },
+    {
+      "name": "Green Stained Glass",
+      "uid": "minecraft:stained_glass",
+      "meta": 13,
+      "color": "#667f33",
+      "alpha": 0.4
+    },
+    {
+      "name": "Green Stained Glass Pane",
+      "uid": "minecraft:stained_glass_pane",
+      "meta": 13,
+      "color": "#667f33",
+      "alpha": 0.4
+    },
+    {
+      "name": "Green Tallow Candle",
+      "uid": "thaumcraft:candle",
+      "meta": 13,
+      "color": "#f2e1c0"
+    },
+    {
+      "name": "Green Wool",
+      "uid": "minecraft:wool",
+      "meta": 13,
+      "color": "#35461b"
+    },
+    {
+      "name": "Grinder",
+      "uid": "neotech:grinder",
+      "meta": 0,
+      "color": "#585858"
+    },
+    {
+      "name": "Grout",
+      "uid": "tconstruct:soil",
+      "meta": 0,
+      "color": "#9fa1ab"
+    },
+    {
+      "name": "Hardened Clay",
+      "uid": "minecraft:hardened_clay",
+      "meta": 0,
+      "color": "#965c42"
+    },
+    {
+      "name": "Hay Bale",
+      "uid": "minecraft:hay_block",
+      "meta": 0,
+      "color": "#9d7412"
+    },
+    {
+      "name": "Hopper",
+      "uid": "minecraft:hopper",
+      "meta": 0,
+      "color": "#3e3e3e"
+    },
+    {
+      "name": "Hungry Chest",
+      "uid": "thaumcraft:hungry_chest",
+      "meta": 0,
+      "color": "#7c007c"
+    },
+    {
+      "name": "Ice",
+      "uid": "minecraft:ice",
+      "meta": 0,
+      "color": "#7dadff",
+      "alpha": 0.8
+    },
+    {
+      "name": "Immutable Stone",
+      "uid": "intangible:soulcage",
+      "meta": 2,
+      "color": "#6a6a6a"
+    },
+    {
+      "name": "Infernal Furnace",
+      "uid": "thaumcraft:placeholder",
+      "meta": 0,
+      "color": "#2c161a"
+    },
+    {
+      "name": "Infernal Furnace",
+      "uid": "thaumcraft:placeholder",
+      "meta": 1,
+      "color": "#14121d"
+    },
+    {
+      "name": "Infernal Furnace",
+      "uid": "thaumcraft:placeholder",
+      "meta": 2,
+      "color": "#696969"
+    },
+    {
+      "name": "Infernal Furnace",
+      "uid": "thaumcraft:placeholder",
+      "meta": 3,
+      "color": "#393939"
+    },
+    {
+      "name": "Infernal Furnace",
+      "uid": "thaumcraft:placeholder",
+      "meta": 4,
+      "color": "#393939"
+    },
+    {
+      "name": "Infernal Furnace",
+      "uid": "thaumcraft:placeholder",
+      "meta": 5,
+      "color": "#696969"
+    },
+    {
+      "name": "Infinite Soul Well",
+      "uid": "intangible:infinitesoulwell",
+      "meta": 0,
+      "color": "#18054e"
+    },
+    {
+      "name": "Infusion Cost Stone",
+      "uid": "thaumcraft:stone",
+      "meta": 9,
+      "color": "#818894"
+    },
+    {
+      "name": "Infusion Pillar",
+      "uid": "thaumcraft:pillar",
+      "meta": 2,
+      "color": "#484848"
+    },
+    {
+      "name": "Infusion Speed Stone",
+      "uid": "thaumcraft:stone",
+      "meta": 8,
+      "color": "#6b6f77"
+    },
+    {
+      "name": "Iron Bars",
+      "uid": "minecraft:iron_bars",
+      "meta": 0,
+      "color": "#6d6c6a",
+      "alpha": 0.4
+    },
+    {
+      "name": "Iron Chest",
+      "uid": "ironchest:BlockIronChest",
+      "meta": 0,
+      "color": "#7c007c"
+    },
+    {
+      "name": "Iron Door",
+      "uid": "minecraft:iron_door",
+      "meta": 0,
+      "color": "#a3a3a3"
+    },
+    {
+      "name": "Iron Fluid Tank",
+      "uid": "neotech:ironTank",
+      "meta": 0,
+      "color": "#dbdbdb",
+      "alpha": 0.4
+    },
+    {
+      "name": "Iron Ore",
+      "uid": "minecraft:iron_ore",
+      "meta": 0,
+      "color": "#87827e"
+    },
+    {
+      "name": "Iron Trapdoor",
+      "uid": "minecraft:iron_trapdoor",
+      "meta": 0,
+      "color": "#c7c7c7"
+    },
+    {
+      "name": "Item Interface Pipe",
+      "uid": "neotech:pipeItemBasicInterface",
+      "meta": 0,
+      "color": "#9caca0"
+    },
+    {
+      "name": "Jack o\u0027Lantern",
+      "uid": "minecraft:lit_pumpkin",
+      "meta": 0,
+      "color": "#b9851c"
+    },
+    {
+      "name": "Jukebox",
+      "uid": "minecraft:jukebox",
+      "meta": 0,
+      "color": "#644332"
+    },
+    {
+      "name": "Jungle Door",
+      "uid": "minecraft:jungle_door",
+      "meta": 0,
+      "color": "#926b4d"
+    },
+    {
+      "name": "Jungle Fence",
+      "uid": "minecraft:jungle_fence",
+      "meta": 0,
+      "color": "#9a6e4d",
+      "alpha": 0.4
+    },
+    {
+      "name": "Jungle Fence Gate",
+      "uid": "minecraft:jungle_fence_gate",
+      "meta": 0,
+      "color": "#9a6e4d",
+      "alpha": 0.4
+    },
+    {
+      "name": "Jungle Leaves",
+      "uid": "minecraft:leaves",
+      "meta": 3,
+      "color": "#918e86"
+    },
+    {
+      "name": "Jungle Sapling",
+      "uid": "minecraft:sapling",
+      "meta": 3,
+      "color": "#305612"
+    },
+    {
+      "name": "Jungle Wood",
+      "uid": "minecraft:log",
+      "meta": 3,
+      "color": "#57431a"
+    },
+    {
+      "name": "Jungle Wood Planks",
+      "uid": "minecraft:planks",
+      "meta": 3,
+      "color": "#9a6e4d"
+    },
+    {
+      "name": "Jungle Wood Slab",
+      "uid": "minecraft:wooden_slab",
+      "meta": 3,
+      "color": "#9a6e4d"
+    },
+    {
+      "name": "Jungle Wood Stairs",
+      "uid": "minecraft:jungle_stairs",
+      "meta": 0,
+      "color": "#9a6e4d"
+    },
+    {
+      "name": "Ladder",
+      "uid": "minecraft:ladder",
+      "meta": 0,
+      "color": "#795f34"
+    },
+    {
+      "name": "Lamp",
+      "uid": "customnpcs:npcLamp",
+      "meta": 0,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Lamp",
+      "uid": "customnpcs:npcLampUnlit",
+      "meta": 0,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Lamp of Fertility",
+      "uid": "thaumcraft:lamp_fertility",
+      "meta": 0,
+      "color": "#4d3737"
+    },
+    {
+      "name": "Lamp of Growth",
+      "uid": "thaumcraft:lamp_growth",
+      "meta": 0,
+      "color": "#3b4527"
+    },
+    {
+      "name": "Lapis Lazuli Block",
+      "uid": "minecraft:lapis_block",
+      "meta": 0,
+      "color": "#264389"
+    },
+    {
+      "name": "Lapis Lazuli Ore",
+      "uid": "minecraft:lapis_ore",
+      "meta": 0,
+      "color": "#667086"
+    },
+    {
+      "name": "Large Button",
+      "uid": "intangible:largebutton",
+      "meta": 0,
+      "color": "#7d7d7d"
+    },
+    {
+      "name": "Large Fern",
+      "uid": "minecraft:double_plant",
+      "meta": 3,
+      "color": "#7d7d7d"
+    },
+    {
+      "name": "Large Lever",
+      "uid": "intangible:largelever",
+      "meta": 0,
+      "color": "#7a7a7a"
+    },
+    {
+      "name": "Lavawood",
+      "uid": "tconstruct:firewood",
+      "meta": 0,
+      "color": "#6f4225"
+    },
+    {
+      "name": "Lead Ore",
+      "uid": "neotech:oreLead",
+      "meta": 0,
+      "color": "#787578"
+    },
+    {
+      "name": "Lever",
+      "uid": "minecraft:lever",
+      "meta": 0,
+      "color": "#7a7a7a"
+    },
+    {
+      "name": "Light Blue Carpet",
+      "uid": "minecraft:carpet",
+      "meta": 3,
+      "color": "#6a8ac9"
+    },
+    {
+      "name": "Light Blue Nitor",
+      "uid": "thaumcraft:nitor",
+      "meta": 3,
+      "color": "#959595"
+    },
+    {
+      "name": "Light Blue Stained Clay",
+      "uid": "minecraft:stained_hardened_clay",
+      "meta": 3,
+      "color": "#716c89"
+    },
+    {
+      "name": "Light Blue Stained Glass",
+      "uid": "minecraft:stained_glass",
+      "meta": 3,
+      "color": "#6699d8",
+      "alpha": 0.4
+    },
+    {
+      "name": "Light Blue Stained Glass Pane",
+      "uid": "minecraft:stained_glass_pane",
+      "meta": 3,
+      "color": "#6699d8",
+      "alpha": 0.4
+    },
+    {
+      "name": "Light Blue Tallow Candle",
+      "uid": "thaumcraft:candle",
+      "meta": 3,
+      "color": "#f2e1c0"
+    },
+    {
+      "name": "Light Blue Wool",
+      "uid": "minecraft:wool",
+      "meta": 3,
+      "color": "#6a8ac9"
+    },
+    {
+      "name": "Light Gray Carpet",
+      "uid": "minecraft:carpet",
+      "meta": 8,
+      "color": "#9aa1a1"
+    },
+    {
+      "name": "Light Gray Nitor",
+      "uid": "thaumcraft:nitor",
+      "meta": 8,
+      "color": "#959595"
+    },
+    {
+      "name": "Light Gray Stained Clay",
+      "uid": "minecraft:stained_hardened_clay",
+      "meta": 8,
+      "color": "#876a61"
+    },
+    {
+      "name": "Light Gray Stained Glass",
+      "uid": "minecraft:stained_glass",
+      "meta": 8,
+      "color": "#999999",
+      "alpha": 0.4
+    },
+    {
+      "name": "Light Gray Stained Glass Pane",
+      "uid": "minecraft:stained_glass_pane",
+      "meta": 8,
+      "color": "#999999",
+      "alpha": 0.4
+    },
+    {
+      "name": "Light Gray Tallow Candle",
+      "uid": "thaumcraft:candle",
+      "meta": 8,
+      "color": "#f2e1c0"
+    },
+    {
+      "name": "Light Gray Wool",
+      "uid": "minecraft:wool",
+      "meta": 8,
+      "color": "#9aa1a1"
+    },
+    {
+      "name": "Lilac",
+      "uid": "minecraft:double_plant",
+      "meta": 1,
+      "color": "#94948c"
+    },
+    {
+      "name": "Lily Pad",
+      "uid": "minecraft:waterlily",
+      "meta": 0,
+      "color": "#767676"
+    },
+    {
+      "name": "Lime Carpet",
+      "uid": "minecraft:carpet",
+      "meta": 5,
+      "color": "#41ae38"
+    },
+    {
+      "name": "Lime Nitor",
+      "uid": "thaumcraft:nitor",
+      "meta": 5,
+      "color": "#959595"
+    },
+    {
+      "name": "Lime Stained Clay",
+      "uid": "minecraft:stained_hardened_clay",
+      "meta": 5,
+      "color": "#677534"
+    },
+    {
+      "name": "Lime Stained Glass",
+      "uid": "minecraft:stained_glass",
+      "meta": 5,
+      "color": "#7fcc19",
+      "alpha": 0.4
+    },
+    {
+      "name": "Lime Stained Glass Pane",
+      "uid": "minecraft:stained_glass_pane",
+      "meta": 5,
+      "color": "#7fcc19",
+      "alpha": 0.4
+    },
+    {
+      "name": "Lime Tallow Candle",
+      "uid": "thaumcraft:candle",
+      "meta": 5,
+      "color": "#f2e1c0"
+    },
+    {
+      "name": "Lime Wool",
+      "uid": "minecraft:wool",
+      "meta": 5,
+      "color": "#41ae38"
+    },
+    {
+      "name": "Liquid Blue Slime",
+      "uid": "tconstruct:blueslime",
+      "meta": 0,
+      "color": "#aaaaaa",
+      "alpha": 0.3
+    },
+    {
+      "name": "Liquid Death",
+      "uid": "thaumcraft:liquid_death",
+      "meta": 0,
+      "color": "#48255c"
+    },
+    {
+      "name": "Liquid Dirt",
+      "uid": "tconstruct:molten_dirt",
+      "meta": 0,
+      "color": "#858585"
+    },
+    {
+      "name": "Liquid Purple Slime",
+      "uid": "tconstruct:purpleslime",
+      "meta": 0,
+      "color": "#aaaaaa",
+      "alpha": 0.3
+    },
+    {
+      "name": "Location Quest Block",
+      "uid": "customnpcs:npcWaypoint",
+      "meta": 0,
+      "color": "#005601"
+    },
+    {
+      "name": "Magenta Carpet",
+      "uid": "minecraft:carpet",
+      "meta": 2,
+      "color": "#b350bc"
+    },
+    {
+      "name": "Magenta Nitor",
+      "uid": "thaumcraft:nitor",
+      "meta": 2,
+      "color": "#959595"
+    },
+    {
+      "name": "Magenta Stained Clay",
+      "uid": "minecraft:stained_hardened_clay",
+      "meta": 2,
+      "color": "#95586c"
+    },
+    {
+      "name": "Magenta Stained Glass",
+      "uid": "minecraft:stained_glass",
+      "meta": 2,
+      "color": "#b24cd8",
+      "alpha": 0.4
+    },
+    {
+      "name": "Magenta Stained Glass Pane",
+      "uid": "minecraft:stained_glass_pane",
+      "meta": 2,
+      "color": "#b24cd8",
+      "alpha": 0.4
+    },
+    {
+      "name": "Magenta Tallow Candle",
+      "uid": "thaumcraft:candle",
+      "meta": 2,
+      "color": "#f2e1c0"
+    },
+    {
+      "name": "Magenta Wool",
+      "uid": "minecraft:wool",
+      "meta": 2,
+      "color": "#b350bc"
+    },
+    {
+      "name": "Magic Mirror",
+      "uid": "cfm:mirror",
+      "meta": 0,
+      "color": "#e7e4db",
+      "alpha": 0.4
+    },
+    {
+      "name": "Magic Mirror",
+      "uid": "thaumcraft:mirror",
+      "meta": 0,
+      "color": "#a97b17"
+    },
+    {
+      "name": "Magma Slime Block",
+      "uid": "tconstruct:slime",
+      "meta": 4,
+      "color": "#f08f3c"
+    },
+    {
+      "name": "Magma Slime Sapling",
+      "uid": "tconstruct:slime_sapling",
+      "meta": 2,
+      "color": "#dc670d"
+    },
+    {
+      "name": "Magma Slimy Dirt",
+      "uid": "tconstruct:slime_dirt",
+      "meta": 3,
+      "color": "#ea791e"
+    },
+    {
+      "name": "Mailbox",
+      "uid": "customnpcs:npcMailbox",
+      "meta": 0,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Mailbox",
+      "uid": "customnpcs:npcMailbox",
+      "meta": 1,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Malleable Stone",
+      "uid": "intangible:soulcage",
+      "meta": 6,
+      "color": "#656565"
+    },
+    {
+      "name": "Mechanical Pipe",
+      "uid": "neotech:mechanicalPipe",
+      "meta": 0,
+      "color": "#dbdbdb"
+    },
+    {
+      "name": "Melon",
+      "uid": "minecraft:melon_block",
+      "meta": 0,
+      "color": "#8d9124"
+    },
+    {
+      "name": "Milk",
+      "uid": "tconstruct:milk",
+      "meta": 0,
+      "color": "#fcfcfc",
+      "alpha": 0.3
+    },
+    {
+      "name": "Miniature Sun",
+      "uid": "neotech:blockMiniatureSun",
+      "meta": 0,
+      "color": "#fab53d"
+    },
+    {
+      "name": "Mnemonic Matrix",
+      "uid": "thaumcraft:brain_box",
+      "meta": 0,
+      "color": "#52432f"
+    },
+    {
+      "name": "Mob Stand",
+      "uid": "neotech:mobStand",
+      "meta": 0,
+      "color": "#e7e4db"
+    },
+    {
+      "name": "Molten Ardite",
+      "uid": "tconstruct:molten_ardite",
+      "meta": 0,
+      "color": "#9a9a9a"
+    },
+    {
+      "name": "Molten Blue Crystal",
+      "uid": "intangible:moltencrystalblue",
+      "meta": 0,
+      "color": "#717171"
+    },
+    {
+      "name": "Molten Brass",
+      "uid": "tconstruct:molten_brass",
+      "meta": 0,
+      "color": "#9a9a9a"
+    },
+    {
+      "name": "Molten Bronze",
+      "uid": "tconstruct:molten_bronze",
+      "meta": 0,
+      "color": "#9a9a9a"
+    },
+    {
+      "name": "Molten Clay",
+      "uid": "tconstruct:molten_clay",
+      "meta": 0,
+      "color": "#858585"
+    },
+    {
+      "name": "Molten Cobalt",
+      "uid": "tconstruct:molten_cobalt",
+      "meta": 0,
+      "color": "#9a9a9a"
+    },
+    {
+      "name": "Molten Copper",
+      "uid": "tconstruct:molten_copper",
+      "meta": 0,
+      "color": "#9a9a9a"
+    },
+    {
+      "name": "Molten Emerald",
+      "uid": "tconstruct:molten_emerald",
+      "meta": 0,
+      "color": "#9a9a9a"
+    },
+    {
+      "name": "Molten Glass",
+      "uid": "intangible:moltenglass",
+      "meta": 0,
+      "color": "#717171"
+    },
+    {
+      "name": "Molten Gold",
+      "uid": "tconstruct:molten_gold",
+      "meta": 0,
+      "color": "#9a9a9a"
+    },
+    {
+      "name": "Molten Iron",
+      "uid": "tconstruct:molten_iron",
+      "meta": 0,
+      "color": "#9a9a9a"
+    },
+    {
+      "name": "Molten Knightslime",
+      "uid": "tconstruct:molten_knightslime",
+      "meta": 0,
+      "color": "#9a9a9a"
+    },
+    {
+      "name": "Molten Lead",
+      "uid": "tconstruct:molten_lead",
+      "meta": 0,
+      "color": "#9a9a9a"
+    },
+    {
+      "name": "Molten Manyullyn",
+      "uid": "tconstruct:molten_manyullyn",
+      "meta": 0,
+      "color": "#9a9a9a"
+    },
+    {
+      "name": "Molten Obsidian",
+      "uid": "tconstruct:molten_obsidian",
+      "meta": 0,
+      "color": "#858585"
+    },
+    {
+      "name": "Molten Pigiron",
+      "uid": "tconstruct:molten_pigiron",
+      "meta": 0,
+      "color": "#9a9a9a"
+    },
+    {
+      "name": "Molten Silver",
+      "uid": "tconstruct:molten_silver",
+      "meta": 0,
+      "color": "#9a9a9a"
+    },
+    {
+      "name": "Molten Steel",
+      "uid": "tconstruct:molten_steel",
+      "meta": 0,
+      "color": "#9a9a9a"
+    },
+    {
+      "name": "Molten Tin",
+      "uid": "tconstruct:molten_tin",
+      "meta": 0,
+      "color": "#9a9a9a"
+    },
+    {
+      "name": "Molten Yellow Crystal",
+      "uid": "intangible:moltencrystalyellow",
+      "meta": 0,
+      "color": "#717171"
+    },
+    {
+      "name": "Monster Spawner",
+      "uid": "minecraft:mob_spawner",
+      "meta": 0,
+      "color": "#1a2731"
+    },
+    {
+      "name": "Moss Stone",
+      "uid": "minecraft:mossy_cobblestone",
+      "meta": 0,
+      "color": "#677967"
+    },
+    {
+      "name": "Mossy Cobblestone Wall",
+      "uid": "minecraft:cobblestone_wall",
+      "meta": 1,
+      "color": "#677967"
+    },
+    {
+      "name": "Mossy Stone Bricks",
+      "uid": "minecraft:stonebrick",
+      "meta": 1,
+      "color": "#72776a"
+    },
+    {
+      "name": "Mud Bricks",
+      "uid": "tconstruct:soil",
+      "meta": 6,
+      "color": "#7b6045"
+    },
+    {
+      "name": "Mushroom",
+      "uid": "minecraft:brown_mushroom",
+      "meta": 0,
+      "color": "#8a6953"
+    },
+    {
+      "name": "Mushroom",
+      "uid": "minecraft:brown_mushroom_block",
+      "meta": 0,
+      "color": "#8d6a53"
+    },
+    {
+      "name": "Mushroom",
+      "uid": "minecraft:red_mushroom",
+      "meta": 0,
+      "color": "#c33538"
+    },
+    {
+      "name": "Mushroom",
+      "uid": "minecraft:red_mushroom_block",
+      "meta": 0,
+      "color": "#b62524"
+    },
+    {
+      "name": "Mycelium",
+      "uid": "minecraft:mycelium",
+      "meta": 0,
+      "color": "#715849"
+    },
+    {
+      "name": "Nether Brick",
+      "uid": "minecraft:nether_brick",
+      "meta": 0,
+      "color": "#2c161a"
+    },
+    {
+      "name": "Nether Brick Fence",
+      "uid": "minecraft:nether_brick_fence",
+      "meta": 0,
+      "color": "#2c161a",
+      "alpha": 0.4
+    },
+    {
+      "name": "Nether Brick Slab",
+      "uid": "minecraft:stone_slab",
+      "meta": 6,
+      "color": "#2c161a"
+    },
+    {
+      "name": "Nether Brick Stairs",
+      "uid": "minecraft:nether_brick_stairs",
+      "meta": 0,
+      "color": "#2c161a"
+    },
+    {
+      "name": "Nether Quartz Ore",
+      "uid": "minecraft:quartz_ore",
+      "meta": 0,
+      "color": "#7d544f"
+    },
+    {
+      "name": "Netherrack",
+      "uid": "minecraft:netherrack",
+      "meta": 0,
+      "color": "#6f3634"
+    },
+    {
+      "name": "Noble Stone",
+      "uid": "intangible:soulcage",
+      "meta": 0,
+      "color": "#696969"
+    },
+    {
+      "name": "Node Stabilizer",
+      "uid": "thaumcraft:node_stabilizer",
+      "meta": 0,
+      "color": "#3c3c3c"
+    },
+    {
+      "name": "Note Block",
+      "uid": "minecraft:noteblock",
+      "meta": 0,
+      "color": "#644332"
+    },
+    {
+      "name": "Oak Door",
+      "uid": "minecraft:wooden_door",
+      "meta": 0,
+      "color": "#866532"
+    },
+    {
+      "name": "Oak Fence",
+      "uid": "minecraft:fence",
+      "meta": 0,
+      "color": "#9c7f4e",
+      "alpha": 0.4
+    },
+    {
+      "name": "Oak Fence Gate",
+      "uid": "minecraft:fence_gate",
+      "meta": 0,
+      "color": "#9c7f4e",
+      "alpha": 0.4
+    },
+    {
+      "name": "Oak Leaves",
+      "uid": "minecraft:leaves",
+      "meta": 0,
+      "color": "#878787"
+    },
+    {
+      "name": "Oak Sapling",
+      "uid": "minecraft:sapling",
+      "meta": 0,
+      "color": "#476625"
+    },
+    {
+      "name": "Oak Wood",
+      "uid": "minecraft:log",
+      "meta": 0,
+      "color": "#665131"
+    },
+    {
+      "name": "Oak Wood Planks",
+      "uid": "minecraft:planks",
+      "meta": 0,
+      "color": "#9c7f4e"
+    },
+    {
+      "name": "Oak Wood Slab",
+      "uid": "minecraft:double_wooden_slab",
+      "meta": 0,
+      "color": "#9c7f4e"
+    },
+    {
+      "name": "Oak Wood Slab",
+      "uid": "minecraft:wooden_slab",
+      "meta": 0,
+      "color": "#9c7f4e"
+    },
+    {
+      "name": "Oak Wood Stairs",
+      "uid": "minecraft:oak_stairs",
+      "meta": 0,
+      "color": "#9c7f4e"
+    },
+    {
+      "name": "Obsidian",
+      "uid": "minecraft:obsidian",
+      "meta": 0,
+      "color": "#14121d"
+    },
+    {
+      "name": "Obsidian Chest",
+      "uid": "ironchest:BlockIronChest",
+      "meta": 6,
+      "color": "#7c007c"
+    },
+    {
+      "name": "Offering Plate",
+      "uid": "intangible:offeringplate",
+      "meta": 0,
+      "color": "#f9ec4e"
+    },
+    {
+      "name": "Orange Carpet",
+      "uid": "minecraft:carpet",
+      "meta": 1,
+      "color": "#db7d3e"
+    },
+    {
+      "name": "Orange Nitor",
+      "uid": "thaumcraft:nitor",
+      "meta": 1,
+      "color": "#959595"
+    },
+    {
+      "name": "Orange Stained Clay",
+      "uid": "minecraft:stained_hardened_clay",
+      "meta": 1,
+      "color": "#a15325"
+    },
+    {
+      "name": "Orange Stained Glass",
+      "uid": "minecraft:stained_glass",
+      "meta": 1,
+      "color": "#d87f33",
+      "alpha": 0.4
+    },
+    {
+      "name": "Orange Stained Glass Pane",
+      "uid": "minecraft:stained_glass_pane",
+      "meta": 1,
+      "color": "#d87f33",
+      "alpha": 0.4
+    },
+    {
+      "name": "Orange Tallow Candle",
+      "uid": "thaumcraft:candle",
+      "meta": 1,
+      "color": "#f2e1c0"
+    },
+    {
+      "name": "Orange Tulip",
+      "uid": "minecraft:red_flower",
+      "meta": 5,
+      "color": "#a3581a"
+    },
+    {
+      "name": "Orange Wool",
+      "uid": "minecraft:wool",
+      "meta": 1,
+      "color": "#db7d3e"
+    },
+    {
+      "name": "Order Crystal",
+      "uid": "thaumcraft:crystal_ordo",
+      "meta": 0,
+      "color": "#bbbdbc",
+      "alpha": 0.4
+    },
+    {
+      "name": "Oxeye Daisy",
+      "uid": "minecraft:red_flower",
+      "meta": 8,
+      "color": "#b3b3b3"
+    },
+    {
+      "name": "Packed Ice",
+      "uid": "minecraft:packed_ice",
+      "meta": 0,
+      "color": "#a5c2f5",
+      "alpha": 0.8
+    },
+    {
+      "name": "Pantheon",
+      "uid": "intangible:pantheon",
+      "meta": 0,
+      "color": "#7d7d7d"
+    },
+    {
+      "name": "Part Builder",
+      "uid": "tconstruct:tooltables",
+      "meta": 2,
+      "color": "#8f7345"
+    },
+    {
+      "name": "Part Chest",
+      "uid": "tconstruct:tooltables",
+      "meta": 5,
+      "color": "#482f0b"
+    },
+    {
+      "name": "Pattern Chest",
+      "uid": "tconstruct:tooltables",
+      "meta": 4,
+      "color": "#76442c"
+    },
+    {
+      "name": "Paving Stone of Travel",
+      "uid": "thaumcraft:paving_stone",
+      "meta": 1,
+      "color": "#484a47"
+    },
+    {
+      "name": "Pedestal",
+      "uid": "customnpcs:npcPedestal",
+      "meta": 0,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Pedestal",
+      "uid": "customnpcs:npcPedestal",
+      "meta": 1,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Pedestal",
+      "uid": "customnpcs:npcPedestal",
+      "meta": 2,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Pedestal",
+      "uid": "customnpcs:npcPedestal",
+      "meta": 3,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Pedestal",
+      "uid": "customnpcs:npcPedestal",
+      "meta": 4,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Peony",
+      "uid": "minecraft:double_plant",
+      "meta": 5,
+      "color": "#85868e"
+    },
+    {
+      "name": "Pillar Quartz Block",
+      "uid": "minecraft:quartz_block",
+      "meta": 2,
+      "color": "#e7e3db"
+    },
+    {
+      "name": "Pink Carpet",
+      "uid": "minecraft:carpet",
+      "meta": 6,
+      "color": "#d08499"
+    },
+    {
+      "name": "Pink Nitor",
+      "uid": "thaumcraft:nitor",
+      "meta": 6,
+      "color": "#959595"
+    },
+    {
+      "name": "Pink Stained Clay",
+      "uid": "minecraft:stained_hardened_clay",
+      "meta": 6,
+      "color": "#a14e4e"
+    },
+    {
+      "name": "Pink Stained Glass",
+      "uid": "minecraft:stained_glass",
+      "meta": 6,
+      "color": "#f27fa5",
+      "alpha": 0.4
+    },
+    {
+      "name": "Pink Stained Glass Pane",
+      "uid": "minecraft:stained_glass_pane",
+      "meta": 6,
+      "color": "#f27fa5",
+      "alpha": 0.4
+    },
+    {
+      "name": "Pink Tallow Candle",
+      "uid": "thaumcraft:candle",
+      "meta": 6,
+      "color": "#f2e1c0"
+    },
+    {
+      "name": "Pink Tulip",
+      "uid": "minecraft:red_flower",
+      "meta": 7,
+      "color": "#b09ab0"
+    },
+    {
+      "name": "Pink Wool",
+      "uid": "minecraft:wool",
+      "meta": 6,
+      "color": "#d08499"
+    },
+    {
+      "name": "Piston",
+      "uid": "minecraft:piston",
+      "meta": 0,
+      "color": "#6a665f"
+    },
+    {
+      "name": "Placeholder",
+      "uid": "customnpcs:npcPlaceholder",
+      "meta": 0,
+      "color": "#000000"
+    },
+    {
+      "name": "Placeholder",
+      "uid": "customnpcs:npcPlaceholder",
+      "meta": 1,
+      "color": "#ffffff"
+    },
+    {
+      "name": "Placeholder",
+      "uid": "customnpcs:npcPlaceholder",
+      "meta": 2,
+      "color": "#808080"
+    },
+    {
+      "name": "Placeholder",
+      "uid": "customnpcs:npcPlaceholder",
+      "meta": 3,
+      "color": "#ff0000"
+    },
+    {
+      "name": "Placeholder",
+      "uid": "customnpcs:npcPlaceholder",
+      "meta": 4,
+      "color": "#ff6a00"
+    },
+    {
+      "name": "Placeholder",
+      "uid": "customnpcs:npcPlaceholder",
+      "meta": 5,
+      "color": "#ffd800"
+    },
+    {
+      "name": "Placeholder",
+      "uid": "customnpcs:npcPlaceholder",
+      "meta": 6,
+      "color": "#b6ff00"
+    },
+    {
+      "name": "Placeholder",
+      "uid": "customnpcs:npcPlaceholder",
+      "meta": 7,
+      "color": "#4cff00"
+    },
+    {
+      "name": "Placeholder",
+      "uid": "customnpcs:npcPlaceholder",
+      "meta": 8,
+      "color": "#007f0e"
+    },
+    {
+      "name": "Placeholder",
+      "uid": "customnpcs:npcPlaceholder",
+      "meta": 9,
+      "color": "#00ffff"
+    },
+    {
+      "name": "Placeholder",
+      "uid": "customnpcs:npcPlaceholder",
+      "meta": 10,
+      "color": "#0094ff"
+    },
+    {
+      "name": "Placeholder",
+      "uid": "customnpcs:npcPlaceholder",
+      "meta": 11,
+      "color": "#0026ff"
+    },
+    {
+      "name": "Placeholder",
+      "uid": "customnpcs:npcPlaceholder",
+      "meta": 12,
+      "color": "#4800ff"
+    },
+    {
+      "name": "Placeholder",
+      "uid": "customnpcs:npcPlaceholder",
+      "meta": 13,
+      "color": "#b200ff"
+    },
+    {
+      "name": "Placeholder",
+      "uid": "customnpcs:npcPlaceholder",
+      "meta": 14,
+      "color": "#ff00dc"
+    },
+    {
+      "name": "Placeholder",
+      "uid": "customnpcs:npcPlaceholder",
+      "meta": 15,
+      "color": "#ff006e"
+    },
+    {
+      "name": "Player Sensitive Pressure Plate",
+      "uid": "neotech:playerPlate",
+      "meta": 0,
+      "color": "#bc7444"
+    },
+    {
+      "name": "Plinth",
+      "uid": "intangible:plinth",
+      "meta": 0,
+      "color": "#7d7d7d"
+    },
+    {
+      "name": "Polished Andesite",
+      "uid": "minecraft:stone",
+      "meta": 6,
+      "color": "#858586"
+    },
+    {
+      "name": "Polished Diorite",
+      "uid": "minecraft:stone",
+      "meta": 4,
+      "color": "#b7b7b9"
+    },
+    {
+      "name": "Polished Granite",
+      "uid": "minecraft:stone",
+      "meta": 2,
+      "color": "#9f7262"
+    },
+    {
+      "name": "Poppy",
+      "uid": "minecraft:red_flower",
+      "meta": 0,
+      "color": "#980406"
+    },
+    {
+      "name": "Porous Stone",
+      "uid": "thaumcraft:stone",
+      "meta": 13,
+      "color": "#7c7c7c"
+    },
+    {
+      "name": "Potato",
+      "uid": "minecraft:potatoes",
+      "meta": 0,
+      "color": "#01ab10"
+    },
+    {
+      "name": "Powered Rail",
+      "uid": "minecraft:golden_rail",
+      "meta": 0,
+      "color": "#846c48"
+    },
+    {
+      "name": "Predatory Stone",
+      "uid": "intangible:soulcage",
+      "meta": 3,
+      "color": "#696969"
+    },
+    {
+      "name": "Prismarine",
+      "uid": "minecraft:prismarine",
+      "meta": 0,
+      "color": "#69a894"
+    },
+    {
+      "name": "Prismarine Bricks",
+      "uid": "minecraft:prismarine",
+      "meta": 1,
+      "color": "#63a08f"
+    },
+    {
+      "name": "Pumpkin",
+      "uid": "minecraft:pumpkin",
+      "meta": 0,
+      "color": "#8e4c0c"
+    },
+    {
+      "name": "Punji Sticks",
+      "uid": "tconstruct:punji",
+      "meta": 0,
+      "color": "#95bd69"
+    },
+    {
+      "name": "Purifying Fluid",
+      "uid": "thaumcraft:purifying_fluid",
+      "meta": 0,
+      "color": "#2e43f4"
+    },
+    {
+      "name": "Purple Carpet",
+      "uid": "minecraft:carpet",
+      "meta": 10,
+      "color": "#7e3db5"
+    },
+    {
+      "name": "Purple Nitor",
+      "uid": "thaumcraft:nitor",
+      "meta": 10,
+      "color": "#959595"
+    },
+    {
+      "name": "Purple Slime Block",
+      "uid": "tconstruct:slime",
+      "meta": 2,
+      "color": "#ca5aec"
+    },
+    {
+      "name": "Purple Slime Sapling",
+      "uid": "tconstruct:slime_sapling",
+      "meta": 1,
+      "color": "#657a92"
+    },
+    {
+      "name": "Purple Slimy Dirt",
+      "uid": "tconstruct:slime_dirt",
+      "meta": 2,
+      "color": "#86619a"
+    },
+    {
+      "name": "Purple Slimy Grass",
+      "uid": "tconstruct:slime_grass",
+      "meta": 4,
+      "color": "#ea791e"
+    },
+    {
+      "name": "Purple Slimy Grass",
+      "uid": "tconstruct:slime_grass",
+      "meta": 9,
+      "color": "#ea791e"
+    },
+    {
+      "name": "Purple Slimy Grass",
+      "uid": "tconstruct:slime_grass",
+      "meta": 14,
+      "color": "#ea791e"
+    },
+    {
+      "name": "Purple Slimy Vine",
+      "uid": "tconstruct:slime_vine_purple",
+      "meta": 0,
+      "color": "#b2b2b2",
+      "alpha": 0.2
+    },
+    {
+      "name": "Purple Slimy Vine",
+      "uid": "tconstruct:slime_vine_purple_end",
+      "meta": 0,
+      "color": "#b3b3b3",
+      "alpha": 0.2
+    },
+    {
+      "name": "Purple Slimy Vine",
+      "uid": "tconstruct:slime_vine_purple_mid",
+      "meta": 0,
+      "color": "#b4b4b4",
+      "alpha": 0.2
+    },
+    {
+      "name": "Purple Stained Clay",
+      "uid": "minecraft:stained_hardened_clay",
+      "meta": 10,
+      "color": "#764656"
+    },
+    {
+      "name": "Purple Stained Glass",
+      "uid": "minecraft:stained_glass",
+      "meta": 10,
+      "color": "#7f3fb2",
+      "alpha": 0.4
+    },
+    {
+      "name": "Purple Stained Glass Pane",
+      "uid": "minecraft:stained_glass_pane",
+      "meta": 10,
+      "color": "#7f3fb2",
+      "alpha": 0.4
+    },
+    {
+      "name": "Purple Tallow Candle",
+      "uid": "thaumcraft:candle",
+      "meta": 10,
+      "color": "#f2e1c0"
+    },
+    {
+      "name": "Purple Wool",
+      "uid": "minecraft:wool",
+      "meta": 10,
+      "color": "#7e3db5"
+    },
+    {
+      "name": "Quartz Slab",
+      "uid": "minecraft:stone_slab",
+      "meta": 7,
+      "color": "#ece9e2"
+    },
+    {
+      "name": "Quartz Stairs",
+      "uid": "minecraft:quartz_stairs",
+      "meta": 0,
+      "color": "#ece9e2"
+    },
+    {
+      "name": "Rail",
+      "uid": "minecraft:rail",
+      "meta": 0,
+      "color": "#796c58"
+    },
+    {
+      "name": "Rare Crate",
+      "uid": "thaumcraft:loot_crate",
+      "meta": 2,
+      "color": "#39302c"
+    },
+    {
+      "name": "Rare Urn",
+      "uid": "thaumcraft:loot_urn",
+      "meta": 2,
+      "color": "#543d2f"
+    },
+    {
+      "name": "Recharge Pedestal",
+      "uid": "thaumcraft:recharge_pedestal",
+      "meta": 0,
+      "color": "#515146"
+    },
+    {
+      "name": "Red Carpet",
+      "uid": "minecraft:carpet",
+      "meta": 14,
+      "color": "#963430"
+    },
+    {
+      "name": "Red Nitor",
+      "uid": "thaumcraft:nitor",
+      "meta": 14,
+      "color": "#959595"
+    },
+    {
+      "name": "Red Sand",
+      "uid": "minecraft:sand",
+      "meta": 1,
+      "color": "#a95821"
+    },
+    {
+      "name": "Red Sandstone",
+      "uid": "minecraft:red_sandstone",
+      "meta": 0,
+      "color": "#a5541d"
+    },
+    {
+      "name": "Red Sandstone Slab",
+      "uid": "minecraft:double_stone_slab2",
+      "meta": 0,
+      "color": "#a5541d"
+    },
+    {
+      "name": "Red Sandstone Slab",
+      "uid": "minecraft:stone_slab2",
+      "meta": 0,
+      "color": "#a5541d"
+    },
+    {
+      "name": "Red Sandstone Stairs",
+      "uid": "minecraft:red_sandstone_stairs",
+      "meta": 0,
+      "color": "#a5541d"
+    },
+    {
+      "name": "Red Stained Clay",
+      "uid": "minecraft:stained_hardened_clay",
+      "meta": 14,
+      "color": "#8f3d2e"
+    },
+    {
+      "name": "Red Stained Glass",
+      "uid": "minecraft:stained_glass",
+      "meta": 14,
+      "color": "#993333",
+      "alpha": 0.4
+    },
+    {
+      "name": "Red Stained Glass Pane",
+      "uid": "minecraft:stained_glass_pane",
+      "meta": 14,
+      "color": "#993333",
+      "alpha": 0.4
+    },
+    {
+      "name": "Red Tallow Candle",
+      "uid": "thaumcraft:candle",
+      "meta": 14,
+      "color": "#f2e1c0"
+    },
+    {
+      "name": "Red Tulip",
+      "uid": "minecraft:red_flower",
+      "meta": 4,
+      "color": "#980406"
+    },
+    {
+      "name": "Red Wool",
+      "uid": "minecraft:wool",
+      "meta": 14,
+      "color": "#963430"
+    },
+    {
+      "name": "Redstone",
+      "uid": "minecraft:lit_redstone_ore",
+      "meta": 0,
+      "color": "#846b6b"
+    },
+    {
+      "name": "Redstone",
+      "uid": "minecraft:redstone_wire",
+      "meta": 0,
+      "color": "#efefef"
+    },
+    {
+      "name": "Redstone Block",
+      "uid": "customnpcs:npcRedstoneBlock",
+      "meta": 0,
+      "color": "#ae9aa4"
+    },
+    {
+      "name": "Redstone Clock",
+      "uid": "neotech:redstoneClock",
+      "meta": 0,
+      "color": "#ab1b09"
+    },
+    {
+      "name": "Redstone Comparator",
+      "uid": "minecraft:powered_comparator",
+      "meta": 0,
+      "color": "#9c9695"
+    },
+    {
+      "name": "Redstone Comparator",
+      "uid": "minecraft:unpowered_comparator",
+      "meta": 0,
+      "color": "#9c9695"
+    },
+    {
+      "name": "Redstone Lamp",
+      "uid": "minecraft:lit_redstone_lamp",
+      "meta": 0,
+      "color": "#775937"
+    },
+    {
+      "name": "Redstone Lamp",
+      "uid": "minecraft:redstone_lamp",
+      "meta": 0,
+      "color": "#462b1a"
+    },
+    {
+      "name": "Redstone Ore",
+      "uid": "minecraft:redstone_ore",
+      "meta": 0,
+      "color": "#846b6b"
+    },
+    {
+      "name": "Redstone Relay",
+      "uid": "thaumcraft:redstone_relay",
+      "meta": 0,
+      "color": "#988984"
+    },
+    {
+      "name": "Redstone Repeater",
+      "uid": "minecraft:powered_repeater",
+      "meta": 0,
+      "color": "#a09393"
+    },
+    {
+      "name": "Redstone Repeater",
+      "uid": "minecraft:unpowered_repeater",
+      "meta": 0,
+      "color": "#979393"
+    },
+    {
+      "name": "Redstone Torch",
+      "uid": "minecraft:redstone_torch",
+      "meta": 0,
+      "color": "#a74b29"
+    },
+    {
+      "name": "Redstone Torch",
+      "uid": "minecraft:unlit_redstone_torch",
+      "meta": 0,
+      "color": "#5d3e26"
+    },
+    {
+      "name": "Research Table",
+      "uid": "thaumcraft:research_table",
+      "meta": 0,
+      "color": "#462c1f"
+    },
+    {
+      "name": "Restricted Essentia Tube",
+      "uid": "thaumcraft:tube",
+      "meta": 2,
+      "color": "#4f4a42"
+    },
+    {
+      "name": "Rose Bush",
+      "uid": "minecraft:double_plant",
+      "meta": 4,
+      "color": "#733d07"
+    },
+    {
+      "name": "Runic Matrix",
+      "uid": "thaumcraft:infusion_matrix",
+      "meta": 0,
+      "color": "#30221e"
+    },
+    {
+      "name": "Sand",
+      "uid": "minecraft:sand",
+      "meta": 0,
+      "color": "#dbd3a0"
+    },
+    {
+      "name": "Sandstone",
+      "uid": "minecraft:sandstone",
+      "meta": 0,
+      "color": "#d8d19d"
+    },
+    {
+      "name": "Sandstone Slab",
+      "uid": "minecraft:stone_slab",
+      "meta": 1,
+      "color": "#d8d19d"
+    },
+    {
+      "name": "Sandstone Stairs",
+      "uid": "minecraft:sandstone_stairs",
+      "meta": 0,
+      "color": "#d8d19d"
+    },
+    {
+      "name": "Sapping Field",
+      "uid": "thaumcraft:effect",
+      "meta": 1,
+      "color": "#7c007c"
+    },
+    {
+      "name": "Scripted Block",
+      "uid": "customnpcs:npcScripted",
+      "meta": 0,
+      "color": "#838173"
+    },
+    {
+      "name": "Sea Lantern",
+      "uid": "minecraft:sea_lantern",
+      "meta": 0,
+      "color": "#abc7bd",
+      "alpha": 0.4
+    },
+    {
+      "name": "Seared Bricks",
+      "uid": "tconstruct:seared",
+      "meta": 3,
+      "color": "#353535"
+    },
+    {
+      "name": "Seared Cobblestone",
+      "uid": "tconstruct:seared",
+      "meta": 1,
+      "color": "#383838"
+    },
+    {
+      "name": "Seared Creeperface",
+      "uid": "tconstruct:seared",
+      "meta": 8,
+      "color": "#393939"
+    },
+    {
+      "name": "Seared Gauge",
+      "uid": "tconstruct:seared_tank",
+      "meta": 1,
+      "color": "#3c3c3c"
+    },
+    {
+      "name": "Seared Paver",
+      "uid": "tconstruct:seared",
+      "meta": 2,
+      "color": "#3a3a3a"
+    },
+    {
+      "name": "Seared Road",
+      "uid": "tconstruct:seared",
+      "meta": 7,
+      "color": "#363636"
+    },
+    {
+      "name": "Seared Stone",
+      "uid": "tconstruct:molten_stone",
+      "meta": 0,
+      "color": "#858585"
+    },
+    {
+      "name": "Seared Stone",
+      "uid": "tconstruct:seared",
+      "meta": 0,
+      "color": "#3b3b3b"
+    },
+    {
+      "name": "Seared Tank",
+      "uid": "tconstruct:seared_tank",
+      "meta": 0,
+      "color": "#353535"
+    },
+    {
+      "name": "Seared Window",
+      "uid": "tconstruct:seared_tank",
+      "meta": 2,
+      "color": "#3b3b3b"
+    },
+    {
+      "name": "Seeds",
+      "uid": "minecraft:wheat",
+      "meta": 0,
+      "color": "#00b312"
+    },
+    {
+      "name": "Shelf",
+      "uid": "customnpcs:npcShelf",
+      "meta": 0,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Shelf",
+      "uid": "customnpcs:npcShelf",
+      "meta": 1,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Shelf",
+      "uid": "customnpcs:npcShelf",
+      "meta": 2,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Shelf",
+      "uid": "customnpcs:npcShelf",
+      "meta": 3,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Shelf",
+      "uid": "customnpcs:npcShelf",
+      "meta": 4,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Shelf",
+      "uid": "customnpcs:npcShelf",
+      "meta": 5,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Shimmerleaf",
+      "uid": "thaumcraft:shimmerleaf",
+      "meta": 0,
+      "color": "#41664c"
+    },
+    {
+      "name": "Shrine",
+      "uid": "intangible:shrine",
+      "meta": 0,
+      "color": "#ece9e2"
+    },
+    {
+      "name": "Shrub",
+      "uid": "minecraft:tallgrass",
+      "meta": 1,
+      "color": "#878787"
+    },
+    {
+      "name": "Shrub",
+      "uid": "minecraft:tallgrass",
+      "meta": 2,
+      "color": "#787878"
+    },
+    {
+      "name": "Sign",
+      "uid": "customnpcs:npcSign",
+      "meta": 0,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Sign",
+      "uid": "customnpcs:npcSign",
+      "meta": 1,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Sign",
+      "uid": "customnpcs:npcSign",
+      "meta": 2,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Sign",
+      "uid": "customnpcs:npcSign",
+      "meta": 3,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Sign",
+      "uid": "customnpcs:npcSign",
+      "meta": 4,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Sign",
+      "uid": "customnpcs:npcSign",
+      "meta": 5,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Sign",
+      "uid": "minecraft:standing_sign",
+      "meta": 0,
+      "color": "#9c7f4e"
+    },
+    {
+      "name": "Sign",
+      "uid": "minecraft:wall_sign",
+      "meta": 0,
+      "color": "#9c7f4e"
+    },
+    {
+      "name": "Silky Block of Jewel",
+      "uid": "tconstruct:metal",
+      "meta": 6,
+      "color": "#f2d374"
+    },
+    {
+      "name": "Silver Chest",
+      "uid": "ironchest:BlockIronChest",
+      "meta": 4,
+      "color": "#7c007c"
+    },
+    {
+      "name": "Silver Ore",
+      "uid": "neotech:oreSilver",
+      "meta": 0,
+      "color": "#898a8a"
+    },
+    {
+      "name": "Silverwood Leaves",
+      "uid": "thaumcraft:leaf",
+      "meta": 1,
+      "color": "#4c72ae"
+    },
+    {
+      "name": "Silverwood Log",
+      "uid": "thaumcraft:log",
+      "meta": 3,
+      "color": "#c0bcaa"
+    },
+    {
+      "name": "Silverwood Planks",
+      "uid": "thaumcraft:plank",
+      "meta": 1,
+      "color": "#c7c1ae"
+    },
+    {
+      "name": "Silverwood Sapling",
+      "uid": "thaumcraft:sapling",
+      "meta": 1,
+      "color": "#517a9b"
+    },
+    {
+      "name": "Silverwood Slab",
+      "uid": "thaumcraft:slab_wood",
+      "meta": 1,
+      "color": "#c7c1ae"
+    },
+    {
+      "name": "Silverwood stairs",
+      "uid": "thaumcraft:silverwood_stairs",
+      "meta": 0,
+      "color": "#c7c1ae"
+    },
+    {
+      "name": "Skeleton Skull",
+      "uid": "minecraft:skull",
+      "meta": 0,
+      "color": "#544033"
+    },
+    {
+      "name": "Slime Block",
+      "uid": "minecraft:slime",
+      "meta": 0,
+      "color": "#78c865"
+    },
+    {
+      "name": "Slimy Grass",
+      "uid": "tconstruct:slime_grass",
+      "meta": 0,
+      "color": "#866043"
+    },
+    {
+      "name": "Slimy Grass",
+      "uid": "tconstruct:slime_grass",
+      "meta": 1,
+      "color": "#639865"
+    },
+    {
+      "name": "Slimy Grass",
+      "uid": "tconstruct:slime_grass",
+      "meta": 5,
+      "color": "#866043"
+    },
+    {
+      "name": "Slimy Grass",
+      "uid": "tconstruct:slime_grass",
+      "meta": 6,
+      "color": "#639865"
+    },
+    {
+      "name": "Slimy Grass",
+      "uid": "tconstruct:slime_grass",
+      "meta": 10,
+      "color": "#866043"
+    },
+    {
+      "name": "Slimy Grass",
+      "uid": "tconstruct:slime_grass",
+      "meta": 11,
+      "color": "#639865"
+    },
+    {
+      "name": "Slimy Leaves",
+      "uid": "tconstruct:slime_leaves",
+      "meta": 0,
+      "color": "#dbdbdb"
+    },
+    {
+      "name": "Slimy Leaves",
+      "uid": "tconstruct:slime_leaves",
+      "meta": 1,
+      "color": "#dbdbdb"
+    },
+    {
+      "name": "Slimy Leaves",
+      "uid": "tconstruct:slime_leaves",
+      "meta": 2,
+      "color": "#dbdbdb"
+    },
+    {
+      "name": "Slimy Magma Mud",
+      "uid": "tconstruct:soil",
+      "meta": 5,
+      "color": "#a9310b"
+    },
+    {
+      "name": "Smeltery Controller",
+      "uid": "tconstruct:smeltery_controller",
+      "meta": 0,
+      "color": "#353535"
+    },
+    {
+      "name": "Smeltery Drain",
+      "uid": "tconstruct:smeltery_io",
+      "meta": 0,
+      "color": "#353535"
+    },
+    {
+      "name": "Smooth Red Sandstone",
+      "uid": "minecraft:red_sandstone",
+      "meta": 2,
+      "color": "#a8551e"
+    },
+    {
+      "name": "Smooth Sandstone",
+      "uid": "minecraft:sandstone",
+      "meta": 2,
+      "color": "#dbd3a1"
+    },
+    {
+      "name": "Snow",
+      "uid": "minecraft:snow",
+      "meta": 0,
+      "color": "#effbfb"
+    },
+    {
+      "name": "Snow",
+      "uid": "minecraft:snow_layer",
+      "meta": 0,
+      "color": "#effbfb"
+    },
+    {
+      "name": "Soul Forge",
+      "uid": "intangible:soulforge",
+      "meta": 0,
+      "color": "#7d7d7d"
+    },
+    {
+      "name": "Soul Infuser",
+      "uid": "intangible:infuser",
+      "meta": 0,
+      "color": "#7d7d7d"
+    },
+    {
+      "name": "Soul Relay",
+      "uid": "intangible:soulrelay",
+      "meta": 0,
+      "color": "#7d7d7d"
+    },
+    {
+      "name": "Soul Sand",
+      "uid": "minecraft:soul_sand",
+      "meta": 0,
+      "color": "#544033"
+    },
+    {
+      "name": "Soul Ward",
+      "uid": "intangible:soulward",
+      "meta": 0,
+      "color": "#7d7d7d"
+    },
+    {
+      "name": "Soul Wrench",
+      "uid": "intangible:soulwrench",
+      "meta": 0,
+      "color": "#7d7d7d"
+    },
+    {
+      "name": "Spiral",
+      "uid": "intangible:spiral",
+      "meta": 0,
+      "color": "#daf0f4",
+      "alpha": 0.4
+    },
+    {
+      "name": "Splitter",
+      "uid": "intangible:splitter",
+      "meta": 0,
+      "color": "#daf0f4",
+      "alpha": 0.4
+    },
+    {
+      "name": "Sponge",
+      "uid": "minecraft:sponge",
+      "meta": 0,
+      "color": "#c2c354"
+    },
+    {
+      "name": "Spruce Door",
+      "uid": "minecraft:spruce_door",
+      "meta": 0,
+      "color": "#614b31"
+    },
+    {
+      "name": "Spruce Fence",
+      "uid": "minecraft:spruce_fence",
+      "meta": 0,
+      "color": "#674d2e",
+      "alpha": 0.4
+    },
+    {
+      "name": "Spruce Fence Gate",
+      "uid": "minecraft:spruce_fence_gate",
+      "meta": 0,
+      "color": "#674d2e",
+      "alpha": 0.4
+    },
+    {
+      "name": "Spruce Leaves",
+      "uid": "minecraft:leaves",
+      "meta": 1,
+      "color": "#747474"
+    },
+    {
+      "name": "Spruce Sapling",
+      "uid": "minecraft:sapling",
+      "meta": 1,
+      "color": "#333a21"
+    },
+    {
+      "name": "Spruce Wood",
+      "uid": "minecraft:log",
+      "meta": 1,
+      "color": "#2d1c0c"
+    },
+    {
+      "name": "Spruce Wood Planks",
+      "uid": "minecraft:planks",
+      "meta": 1,
+      "color": "#674d2e"
+    },
+    {
+      "name": "Spruce Wood Slab",
+      "uid": "minecraft:wooden_slab",
+      "meta": 1,
+      "color": "#674d2e"
+    },
+    {
+      "name": "Spruce Wood Stairs",
+      "uid": "minecraft:spruce_stairs",
+      "meta": 0,
+      "color": "#674d2e"
+    },
+    {
+      "name": "Square Seared Bricks",
+      "uid": "tconstruct:seared",
+      "meta": 6,
+      "color": "#333333"
+    },
+    {
+      "name": "Stabilizing Totem Pole",
+      "uid": "thaumcraft:aura_totem",
+      "meta": 4,
+      "color": "#625242"
+    },
+    {
+      "name": "Starry Void",
+      "uid": "thaumcraft:stone",
+      "meta": 12,
+      "color": "#151117"
+    },
+    {
+      "name": "Static Field",
+      "uid": "thaumcraft:effect",
+      "meta": 0,
+      "color": "#7c007c"
+    },
+    {
+      "name": "Stencil Table",
+      "uid": "tconstruct:tooltables",
+      "meta": 1,
+      "color": "#8b7043"
+    },
+    {
+      "name": "Sticky Piston",
+      "uid": "minecraft:sticky_piston",
+      "meta": 0,
+      "color": "#6a665f"
+    },
+    {
+      "name": "Stone",
+      "uid": "minecraft:stone",
+      "meta": 0,
+      "color": "#7d7d7d"
+    },
+    {
+      "name": "Stone Brick Stairs",
+      "uid": "minecraft:stone_brick_stairs",
+      "meta": 0,
+      "color": "#7a7a7a"
+    },
+    {
+      "name": "Stone Bricks",
+      "uid": "minecraft:stonebrick",
+      "meta": 0,
+      "color": "#7a7a7a"
+    },
+    {
+      "name": "Stone Bricks Slab",
+      "uid": "minecraft:stone_slab",
+      "meta": 5,
+      "color": "#7a7a7a"
+    },
+    {
+      "name": "Stone Ladder",
+      "uid": "tconstruct:stone_ladder",
+      "meta": 0,
+      "color": "#4c4c4c"
+    },
+    {
+      "name": "Stone Monster Egg",
+      "uid": "minecraft:monster_egg",
+      "meta": 0,
+      "color": "#7d7d7d"
+    },
+    {
+      "name": "Stone Monster Egg",
+      "uid": "minecraft:monster_egg",
+      "meta": 1,
+      "color": "#7a7a7a"
+    },
+    {
+      "name": "Stone Monster Egg",
+      "uid": "minecraft:monster_egg",
+      "meta": 2,
+      "color": "#7a7a7a"
+    },
+    {
+      "name": "Stone Monster Egg",
+      "uid": "minecraft:monster_egg",
+      "meta": 3,
+      "color": "#72776a"
+    },
+    {
+      "name": "Stone Monster Egg",
+      "uid": "minecraft:monster_egg",
+      "meta": 4,
+      "color": "#767676"
+    },
+    {
+      "name": "Stone Monster Egg",
+      "uid": "minecraft:monster_egg",
+      "meta": 5,
+      "color": "#767676"
+    },
+    {
+      "name": "Stone Pressure Plate",
+      "uid": "minecraft:stone_pressure_plate",
+      "meta": 0,
+      "color": "#7d7d7d"
+    },
+    {
+      "name": "Stone Slab",
+      "uid": "minecraft:double_stone_slab",
+      "meta": 0,
+      "color": "#a6a6a6"
+    },
+    {
+      "name": "Stone Slab",
+      "uid": "minecraft:stone_slab",
+      "meta": 0,
+      "color": "#a6a6a6"
+    },
+    {
+      "name": "Stone Table",
+      "uid": "cfm:table_stone",
+      "meta": 0,
+      "color": "#7d7d7d"
+    },
+    {
+      "name": "Stone Table",
+      "uid": "thaumcraft:table_stone",
+      "meta": 0,
+      "color": "#646464"
+    },
+    {
+      "name": "Stone Torch",
+      "uid": "tconstruct:stone_torch",
+      "meta": 0,
+      "color": "#817962"
+    },
+    {
+      "name": "Stool",
+      "uid": "customnpcs:npcStool",
+      "meta": 0,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Stool",
+      "uid": "customnpcs:npcStool",
+      "meta": 1,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Stool",
+      "uid": "customnpcs:npcStool",
+      "meta": 2,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Stool",
+      "uid": "customnpcs:npcStool",
+      "meta": 3,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Stool",
+      "uid": "customnpcs:npcStool",
+      "meta": 4,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Stool",
+      "uid": "customnpcs:npcStool",
+      "meta": 5,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "String",
+      "uid": "minecraft:tripwire",
+      "meta": 0,
+      "color": "#818181"
+    },
+    {
+      "name": "Sugar Canes",
+      "uid": "minecraft:reeds",
+      "meta": 0,
+      "color": "#94c065"
+    },
+    {
+      "name": "Sunflower",
+      "uid": "minecraft:double_plant",
+      "meta": 0,
+      "color": "#eac521"
+    },
+    {
+      "name": "Sunflower",
+      "uid": "minecraft:double_plant",
+      "meta": 2,
+      "color": "#929292"
+    },
+    {
+      "name": "Swollen Taint",
+      "uid": "thaumcraft:taint_feature",
+      "meta": 0,
+      "color": "#893fab"
+    },
+    {
+      "name": "Synthetic Resonator",
+      "uid": "intangible:syntheticresonator",
+      "meta": 0,
+      "color": "#ece9e2"
+    },
+    {
+      "name": "TNT",
+      "uid": "minecraft:tnt",
+      "meta": 0,
+      "color": "#a95c47"
+    },
+    {
+      "name": "Taint Geyser",
+      "uid": "thaumcraft:taint",
+      "meta": 2,
+      "color": "#5a1f62"
+    },
+    {
+      "name": "Tainted Rock",
+      "uid": "thaumcraft:taint",
+      "meta": 3,
+      "color": "#3b2b4e"
+    },
+    {
+      "name": "Tainted Soil",
+      "uid": "thaumcraft:taint",
+      "meta": 1,
+      "color": "#3a2345"
+    },
+    {
+      "name": "Taintwood Log",
+      "uid": "thaumcraft:taint_log",
+      "meta": 0,
+      "color": "#4c2f43"
+    },
+    {
+      "name": "Tall Lamp",
+      "uid": "customnpcs:npcTallLamp",
+      "meta": 0,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Tall Lamp",
+      "uid": "customnpcs:npcTallLamp",
+      "meta": 1,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Tall Lamp",
+      "uid": "customnpcs:npcTallLamp",
+      "meta": 2,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Tall Lamp",
+      "uid": "customnpcs:npcTallLamp",
+      "meta": 3,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Tall Lamp",
+      "uid": "customnpcs:npcTallLamp",
+      "meta": 4,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Tall Slimy Grass",
+      "uid": "tconstruct:slime_grass_tall",
+      "meta": 0,
+      "color": "#b4b4b4"
+    },
+    {
+      "name": "Tall Slimy Grass",
+      "uid": "tconstruct:slime_grass_tall",
+      "meta": 1,
+      "color": "#b9b9b9"
+    },
+    {
+      "name": "Tall Slimy Grass",
+      "uid": "tconstruct:slime_grass_tall",
+      "meta": 4,
+      "color": "#b4b4b4"
+    },
+    {
+      "name": "Tall Slimy Grass",
+      "uid": "tconstruct:slime_grass_tall",
+      "meta": 5,
+      "color": "#b9b9b9"
+    },
+    {
+      "name": "Tall Slimy Grass",
+      "uid": "tconstruct:slime_grass_tall",
+      "meta": 8,
+      "color": "#b4b4b4"
+    },
+    {
+      "name": "Tall Slimy Grass",
+      "uid": "tconstruct:slime_grass_tall",
+      "meta": 9,
+      "color": "#b9b9b9"
+    },
+    {
+      "name": "Thaumatorium",
+      "uid": "thaumcraft:thaumatorium",
+      "meta": 0,
+      "color": "#322821"
+    },
+    {
+      "name": "Thaumic Dioptra",
+      "uid": "thaumcraft:dioptra",
+      "meta": 0,
+      "color": "#444046"
+    },
+    {
+      "name": "Thaumium Block",
+      "uid": "thaumcraft:metal",
+      "meta": 0,
+      "color": "#403457"
+    },
+    {
+      "name": "Thaumium Essentia Smeltery",
+      "uid": "thaumcraft:smelter_thaumium",
+      "meta": 0,
+      "color": "#715940"
+    },
+    {
+      "name": "Thermal Binder",
+      "uid": "neotech:thermalBinder",
+      "meta": 0,
+      "color": "#757877"
+    },
+    {
+      "name": "Tin Ore",
+      "uid": "neotech:oreTin",
+      "meta": 0,
+      "color": "#8b8b8c"
+    },
+    {
+      "name": "Tombstone",
+      "uid": "customnpcs:npcTombstone",
+      "meta": 0,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Tombstone",
+      "uid": "customnpcs:npcTombstone",
+      "meta": 1,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Tombstone",
+      "uid": "customnpcs:npcTombstone",
+      "meta": 2,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Tool Forge",
+      "uid": "tconstruct:toolforge",
+      "meta": 0,
+      "color": "#3c3c3c"
+    },
+    {
+      "name": "Tool Station",
+      "uid": "tconstruct:tooltables",
+      "meta": 3,
+      "color": "#82683d"
+    },
+    {
+      "name": "Torch",
+      "uid": "minecraft:torch",
+      "meta": 0,
+      "color": "#826a3a"
+    },
+    {
+      "name": "Totem Pole Inner",
+      "uid": "thaumcraft:aura_totem",
+      "meta": 3,
+      "color": "#6e6559"
+    },
+    {
+      "name": "Totem Pole Outer",
+      "uid": "thaumcraft:aura_totem",
+      "meta": 2,
+      "color": "#5f5346"
+    },
+    {
+      "name": "Trading Block",
+      "uid": "customnpcs:npcTradingBlock",
+      "meta": 0,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Trapped Chest",
+      "uid": "minecraft:trapped_chest",
+      "meta": 0,
+      "color": "#9c7f4e"
+    },
+    {
+      "name": "Tripwire Hook",
+      "uid": "minecraft:tripwire_hook",
+      "meta": 0,
+      "color": "#9c7f4e"
+    },
+    {
+      "name": "Uncommon Crate",
+      "uid": "thaumcraft:loot_crate",
+      "meta": 1,
+      "color": "#3a302d"
+    },
+    {
+      "name": "Uncommon Urn",
+      "uid": "thaumcraft:loot_urn",
+      "meta": 1,
+      "color": "#553e30"
+    },
+    {
+      "name": "Unhinged Stone",
+      "uid": "intangible:soulcage",
+      "meta": 5,
+      "color": "#676767"
+    },
+    {
+      "name": "Vines",
+      "uid": "minecraft:vine",
+      "meta": 0,
+      "color": "#6f6f6f",
+      "alpha": 0.2
+    },
+    {
+      "name": "Vishroom",
+      "uid": "thaumcraft:vishroom",
+      "meta": 0,
+      "color": "#9f497a"
+    },
+    {
+      "name": "Void Jar",
+      "uid": "thaumcraft:jar",
+      "meta": 1,
+      "color": "#809cbe",
+      "alpha": 0.4
+    },
+    {
+      "name": "Void Metal Block",
+      "uid": "thaumcraft:metal",
+      "meta": 1,
+      "color": "#12091d"
+    },
+    {
+      "name": "Void Metal Essentia Smeltery",
+      "uid": "thaumcraft:smelter_void",
+      "meta": 0,
+      "color": "#634c30"
+    },
+    {
+      "name": "Void Tank",
+      "uid": "neotech:voidTank",
+      "meta": 0,
+      "color": "#14121d",
+      "alpha": 0.4
+    },
+    {
+      "name": "Wall Banner",
+      "uid": "customnpcs:npcWallBanner",
+      "meta": 0,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Wall Banner",
+      "uid": "customnpcs:npcWallBanner",
+      "meta": 1,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Wall Banner",
+      "uid": "customnpcs:npcWallBanner",
+      "meta": 2,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Wall Banner",
+      "uid": "customnpcs:npcWallBanner",
+      "meta": 3,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Wall Banner",
+      "uid": "customnpcs:npcWallBanner",
+      "meta": 4,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Warded Jar",
+      "uid": "thaumcraft:jar",
+      "meta": 0,
+      "color": "#849fbe",
+      "alpha": 0.4
+    },
+    {
+      "name": "Warding Aura",
+      "uid": "minecraft:barrier",
+      "meta": 0,
+      "color": "#d21919"
+    },
+    {
+      "name": "Water Crystal",
+      "uid": "thaumcraft:crystal_aqua",
+      "meta": 0,
+      "color": "#bbbdbc",
+      "alpha": 0.4
+    },
+    {
+      "name": "Weapon Rack",
+      "uid": "customnpcs:npcWeaponRack",
+      "meta": 0,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Weapon Rack",
+      "uid": "customnpcs:npcWeaponRack",
+      "meta": 1,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Weapon Rack",
+      "uid": "customnpcs:npcWeaponRack",
+      "meta": 2,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Weapon Rack",
+      "uid": "customnpcs:npcWeaponRack",
+      "meta": 3,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Weapon Rack",
+      "uid": "customnpcs:npcWeaponRack",
+      "meta": 4,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Weapon Rack",
+      "uid": "customnpcs:npcWeaponRack",
+      "meta": 5,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Weighted Pressure Plate (Heavy)",
+      "uid": "minecraft:heavy_weighted_pressure_plate",
+      "meta": 0,
+      "color": "#dbdbdb"
+    },
+    {
+      "name": "Weighted Pressure Plate (Light)",
+      "uid": "minecraft:light_weighted_pressure_plate",
+      "meta": 0,
+      "color": "#f9ec4e"
+    },
+    {
+      "name": "Wet Sponge",
+      "uid": "minecraft:sponge",
+      "meta": 1,
+      "color": "#a09e3f"
+    },
+    {
+      "name": "White Nitor",
+      "uid": "thaumcraft:nitor",
+      "meta": 0,
+      "color": "#959595"
+    },
+    {
+      "name": "White Stained Clay",
+      "uid": "minecraft:stained_hardened_clay",
+      "meta": 0,
+      "color": "#d1b2a1"
+    },
+    {
+      "name": "White Stained Glass",
+      "uid": "minecraft:stained_glass",
+      "meta": 0,
+      "color": "#ffffff",
+      "alpha": 0.4
+    },
+    {
+      "name": "White Stained Glass Pane",
+      "uid": "minecraft:stained_glass_pane",
+      "meta": 0,
+      "color": "#ffffff",
+      "alpha": 0.4
+    },
+    {
+      "name": "White Star Light",
+      "uid": "neotech:blockMiniatureStar",
+      "meta": 0,
+      "color": "#e8e8e8"
+    },
+    {
+      "name": "White Star Light",
+      "uid": "neotech:blockMiniatureStar",
+      "meta": 1,
+      "color": "#e8e8e8"
+    },
+    {
+      "name": "White Star Light",
+      "uid": "neotech:blockMiniatureStar",
+      "meta": 2,
+      "color": "#e8e8e8"
+    },
+    {
+      "name": "White Star Light",
+      "uid": "neotech:blockMiniatureStar",
+      "meta": 3,
+      "color": "#e8e8e8"
+    },
+    {
+      "name": "White Star Light",
+      "uid": "neotech:blockMiniatureStar",
+      "meta": 4,
+      "color": "#e8e8e8"
+    },
+    {
+      "name": "White Star Light",
+      "uid": "neotech:blockMiniatureStar",
+      "meta": 5,
+      "color": "#e8e8e8"
+    },
+    {
+      "name": "White Star Light",
+      "uid": "neotech:blockMiniatureStar",
+      "meta": 6,
+      "color": "#e8e8e8"
+    },
+    {
+      "name": "White Structure Pipe",
+      "uid": "neotech:pipeStructure",
+      "meta": 0,
+      "color": "#989898",
+      "alpha": 0.4
+    },
+    {
+      "name": "White Tallow Candle",
+      "uid": "thaumcraft:candle",
+      "meta": 0,
+      "color": "#f2e1c0"
+    },
+    {
+      "name": "White Tulip",
+      "uid": "minecraft:red_flower",
+      "meta": 6,
+      "color": "#b0b0b0"
+    },
+    {
+      "name": "Wise Stone",
+      "uid": "intangible:soulcage",
+      "meta": 7,
+      "color": "#666666"
+    },
+    {
+      "name": "Wood Table",
+      "uid": "cfm:table_wood",
+      "meta": 0,
+      "color": "#665131"
+    },
+    {
+      "name": "Wood Table",
+      "uid": "thaumcraft:table_wood",
+      "meta": 0,
+      "color": "#251b18"
+    },
+    {
+      "name": "Wooden Couch",
+      "uid": "customnpcs:npcCouchWood",
+      "meta": 0,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Wooden Couch",
+      "uid": "customnpcs:npcCouchWood",
+      "meta": 1,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Wooden Couch",
+      "uid": "customnpcs:npcCouchWood",
+      "meta": 2,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Wooden Couch",
+      "uid": "customnpcs:npcCouchWood",
+      "meta": 3,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Wooden Couch",
+      "uid": "customnpcs:npcCouchWood",
+      "meta": 4,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Wooden Couch",
+      "uid": "customnpcs:npcCouchWood",
+      "meta": 5,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Wooden Pressure Plate",
+      "uid": "minecraft:wooden_pressure_plate",
+      "meta": 0,
+      "color": "#9c7f4e"
+    },
+    {
+      "name": "Wooden Rail",
+      "uid": "tconstruct:wood_rail",
+      "meta": 0,
+      "color": "#7b6239"
+    },
+    {
+      "name": "Wooden Table",
+      "uid": "customnpcs:npcTable",
+      "meta": 0,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Wooden Table",
+      "uid": "customnpcs:npcTable",
+      "meta": 1,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Wooden Table",
+      "uid": "customnpcs:npcTable",
+      "meta": 2,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Wooden Table",
+      "uid": "customnpcs:npcTable",
+      "meta": 3,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Wooden Table",
+      "uid": "customnpcs:npcTable",
+      "meta": 4,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Wooden Table",
+      "uid": "customnpcs:npcTable",
+      "meta": 5,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Wooden Trapdoor",
+      "uid": "minecraft:trapdoor",
+      "meta": 0,
+      "color": "#7e5d2d"
+    },
+    {
+      "name": "Wool",
+      "uid": "minecraft:wool",
+      "meta": 0,
+      "color": "#dddddd"
+    },
+    {
+      "name": "Wool Couch",
+      "uid": "customnpcs:npcCouchWool",
+      "meta": 0,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Wool Couch",
+      "uid": "customnpcs:npcCouchWool",
+      "meta": 1,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Wool Couch",
+      "uid": "customnpcs:npcCouchWool",
+      "meta": 2,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Wool Couch",
+      "uid": "customnpcs:npcCouchWool",
+      "meta": 3,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Wool Couch",
+      "uid": "customnpcs:npcCouchWool",
+      "meta": 4,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Wool Couch",
+      "uid": "customnpcs:npcCouchWool",
+      "meta": 5,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "Yellow Carpet",
+      "uid": "minecraft:carpet",
+      "meta": 4,
+      "color": "#b1a627"
+    },
+    {
+      "name": "Yellow Crystal Block",
+      "uid": "intangible:yellow_crystal_block",
+      "meta": 0,
+      "color": "#d4ba0c"
+    },
+    {
+      "name": "Yellow Nitor",
+      "uid": "thaumcraft:nitor",
+      "meta": 4,
+      "color": "#959595"
+    },
+    {
+      "name": "Yellow Stained Clay",
+      "uid": "minecraft:stained_hardened_clay",
+      "meta": 4,
+      "color": "#ba8523"
+    },
+    {
+      "name": "Yellow Stained Glass",
+      "uid": "minecraft:stained_glass",
+      "meta": 4,
+      "color": "#e5e533",
+      "alpha": 0.4
+    },
+    {
+      "name": "Yellow Stained Glass Pane",
+      "uid": "minecraft:stained_glass_pane",
+      "meta": 4,
+      "color": "#e5e533",
+      "alpha": 0.4
+    },
+    {
+      "name": "Yellow Tallow Candle",
+      "uid": "thaumcraft:candle",
+      "meta": 4,
+      "color": "#f2e1c0"
+    },
+    {
+      "name": "Yellow Wool",
+      "uid": "minecraft:wool",
+      "meta": 4,
+      "color": "#b1a627"
+    },
+    {
+      "name": "air",
+      "uid": "minecraft:air",
+      "meta": 0,
+      "color": "#7c007c"
+    },
+    {
+      "name": "cake",
+      "uid": "minecraft:cake",
+      "meta": 0,
+      "color": "#bc8d71"
+    },
+    {
+      "name": "cocoa",
+      "uid": "minecraft:cocoa",
+      "meta": 0,
+      "color": "#8a8c40"
+    },
+    {
+      "name": "fire",
+      "uid": "minecraft:fire",
+      "meta": 0,
+      "color": "#d18629"
+    },
+    {
+      "name": "intangible:cloud",
+      "uid": "intangible:cloud",
+      "meta": 0,
+      "color": "#c6c6c6"
+    },
+    {
+      "name": "intangible:shell",
+      "uid": "intangible:shell",
+      "meta": 0,
+      "color": "#dbdbdb"
+    },
+    {
+      "name": "intangible:slurp",
+      "uid": "intangible:slurp",
+      "meta": 0,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "intangible:trigger",
+      "uid": "intangible:trigger",
+      "meta": 0,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "intangible:wellofsouls",
+      "uid": "intangible:wellofsouls",
+      "meta": 0,
+      "color": "#18054e"
+    },
+    {
+      "name": "intangible:wellofsoulscore",
+      "uid": "intangible:wellofsoulscore",
+      "meta": 0,
+      "color": "#18054e"
+    },
+    {
+      "name": "lava",
+      "uid": "minecraft:flowing_lava",
+      "meta": 0,
+      "color": "#d1530f"
+    },
+    {
+      "name": "lava",
+      "uid": "minecraft:lava",
+      "meta": 0,
+      "color": "#d1530f"
+    },
+    {
+      "name": "netherStalk",
+      "uid": "minecraft:nether_wart",
+      "meta": 0,
+      "color": "#6a0e1e"
+    },
+    {
+      "name": "null",
+      "uid": "mcmultipart:multipart",
+      "meta": 0,
+      "color": "#7d7d7d"
+    },
+    {
+      "name": "null",
+      "uid": "minecraft:end_portal",
+      "meta": 0,
+      "color": "#7c007c"
+    },
+    {
+      "name": "null",
+      "uid": "minecraft:piston_extension",
+      "meta": 0,
+      "color": "#7c007c"
+    },
+    {
+      "name": "pistonBase",
+      "uid": "minecraft:piston_head",
+      "meta": 0,
+      "color": "#998159"
+    },
+    {
+      "name": "portal",
+      "uid": "minecraft:portal",
+      "meta": 0,
+      "color": "#560abe"
+    },
+    {
+      "name": "pumpkinStem",
+      "uid": "minecraft:melon_stem",
+      "meta": 0,
+      "color": "#999999"
+    },
+    {
+      "name": "pumpkinStem",
+      "uid": "minecraft:pumpkin_stem",
+      "meta": 0,
+      "color": "#999999"
+    },
+    {
+      "name": "tile.bar_stool.name",
+      "uid": "cfm:bar_stool",
+      "meta": 0,
+      "color": "#e7e4db"
+    },
+    {
+      "name": "tile.basin.name",
+      "uid": "cfm:basin",
+      "meta": 0,
+      "color": "#e7e4db"
+    },
+    {
+      "name": "tile.bath_bottom.name",
+      "uid": "cfm:bath_bottom",
+      "meta": 0,
+      "color": "#e7e4db"
+    },
+    {
+      "name": "tile.bath_top.name",
+      "uid": "cfm:bath_top",
+      "meta": 0,
+      "color": "#e7e4db"
+    },
+    {
+      "name": "tile.bedside_cabinet.name",
+      "uid": "cfm:bedside_cabinet",
+      "meta": 0,
+      "color": "#665131"
+    },
+    {
+      "name": "tile.bin.name",
+      "uid": "cfm:bin",
+      "meta": 0,
+      "color": "#dbdbdb"
+    },
+    {
+      "name": "tile.bird_bath.name",
+      "uid": "cfm:bird_bath",
+      "meta": 0,
+      "color": "#7d7d7d"
+    },
+    {
+      "name": "tile.blender.name",
+      "uid": "cfm:blender",
+      "meta": 0,
+      "color": "#ffffff",
+      "alpha": 0.4
+    },
+    {
+      "name": "tile.blinds_closed.name",
+      "uid": "cfm:blinds_closed",
+      "meta": 0,
+      "color": "#665131"
+    },
+    {
+      "name": "tile.blinds_open.name",
+      "uid": "cfm:blinds_open",
+      "meta": 0,
+      "color": "#665131"
+    },
+    {
+      "name": "tile.cabinet.name",
+      "uid": "cfm:cabinet",
+      "meta": 0,
+      "color": "#674d2e"
+    },
+    {
+      "name": "tile.cabinet_kitchen.name",
+      "uid": "cfm:cabinet_kitchen",
+      "meta": 0,
+      "color": "#e7e4db"
+    },
+    {
+      "name": "tile.candle.name",
+      "uid": "cfm:candle",
+      "meta": 0,
+      "color": "#7d7d7d"
+    },
+    {
+      "name": "tile.ceiling_light_off.name",
+      "uid": "cfm:ceiling_light_off",
+      "meta": 0,
+      "color": "#ffffff",
+      "alpha": 0.4
+    },
+    {
+      "name": "tile.ceiling_light_on.name",
+      "uid": "cfm:ceiling_light_on",
+      "meta": 0,
+      "color": "#ffffff",
+      "alpha": 0.4
+    },
+    {
+      "name": "tile.chair_stone.name",
+      "uid": "cfm:chair_stone",
+      "meta": 0,
+      "color": "#7a7a7a"
+    },
+    {
+      "name": "tile.chair_wood.name",
+      "uid": "cfm:chair_wood",
+      "meta": 0,
+      "color": "#9c7f4e"
+    },
+    {
+      "name": "tile.chimney.name",
+      "uid": "cfm:chimney",
+      "meta": 0,
+      "color": "#926356"
+    },
+    {
+      "name": "tile.chopping_board.name",
+      "uid": "cfm:chopping_board",
+      "meta": 0,
+      "color": "#9c7f4e"
+    },
+    {
+      "name": "tile.coffee_table_stone.name",
+      "uid": "cfm:coffee_table_stone",
+      "meta": 0,
+      "color": "#7d7d7d"
+    },
+    {
+      "name": "tile.coffee_table_wood.name",
+      "uid": "cfm:coffee_table_wood",
+      "meta": 0,
+      "color": "#665131"
+    },
+    {
+      "name": "tile.computer.name",
+      "uid": "cfm:computer",
+      "meta": 0,
+      "color": "#dbdbdb"
+    },
+    {
+      "name": "tile.cookie_jar.name",
+      "uid": "cfm:cookie_jar",
+      "meta": 0,
+      "color": "#ffffff",
+      "alpha": 0.4
+    },
+    {
+      "name": "tile.couch.name",
+      "uid": "cfm:couch",
+      "meta": 0,
+      "color": "#dddddd"
+    },
+    {
+      "name": "tile.couch_jeb.name",
+      "uid": "cfm:couch_jeb",
+      "meta": 0,
+      "color": "#963430"
+    },
+    {
+      "name": "tile.counter.name",
+      "uid": "cfm:counter",
+      "meta": 0,
+      "color": "#e7e4db"
+    },
+    {
+      "name": "tile.counter_sink.name",
+      "uid": "cfm:counter_sink",
+      "meta": 0,
+      "color": "#e7e4db"
+    },
+    {
+      "name": "tile.cup.name",
+      "uid": "cfm:cup",
+      "meta": 0,
+      "color": "#ffffff",
+      "alpha": 0.4
+    },
+    {
+      "name": "tile.curtains_closed.name",
+      "uid": "cfm:curtains_closed",
+      "meta": 0,
+      "color": "#963430"
+    },
+    {
+      "name": "tile.curtains_open.name",
+      "uid": "cfm:curtains_open",
+      "meta": 0,
+      "color": "#963430"
+    },
+    {
+      "name": "tile.dishwasher.name",
+      "uid": "cfm:dishwasher",
+      "meta": 0,
+      "color": "#e7e4db"
+    },
+    {
+      "name": "tile.door_bell.name",
+      "uid": "cfm:door_bell",
+      "meta": 0,
+      "color": "#665131"
+    },
+    {
+      "name": "tile.electric_fence.name",
+      "uid": "cfm:electric_fence",
+      "meta": 0,
+      "color": "#404040"
+    },
+    {
+      "name": "tile.fairy_light.name",
+      "uid": "cfm:fairy_light",
+      "meta": 0,
+      "color": "#404040",
+      "alpha": 0.4
+    },
+    {
+      "name": "tile.fire_alarm_off.name",
+      "uid": "cfm:fire_alarm_off",
+      "meta": 0,
+      "color": "#e7e4db"
+    },
+    {
+      "name": "tile.fire_alarm_on.name",
+      "uid": "cfm:fire_alarm_on",
+      "meta": 0,
+      "color": "#e7e4db"
+    },
+    {
+      "name": "tile.fire_pit_off.name",
+      "uid": "cfm:fire_pit_off",
+      "meta": 0,
+      "color": "#665131"
+    },
+    {
+      "name": "tile.fire_pit_on.name",
+      "uid": "cfm:fire_pit_on",
+      "meta": 0,
+      "color": "#665131"
+    },
+    {
+      "name": "tile.freezer.name",
+      "uid": "cfm:freezer",
+      "meta": 0,
+      "color": "#dbdbdb"
+    },
+    {
+      "name": "tile.fridge.name",
+      "uid": "cfm:fridge",
+      "meta": 0,
+      "color": "#dbdbdb"
+    },
+    {
+      "name": "tile.grand_chair_bottom.name",
+      "uid": "cfm:grand_chair_bottom",
+      "meta": 0,
+      "color": "#3d2712"
+    },
+    {
+      "name": "tile.grand_chair_top.name",
+      "uid": "cfm:grand_chair_top",
+      "meta": 0,
+      "color": "#3d2712"
+    },
+    {
+      "name": "tile.hedge_acacia.name",
+      "uid": "cfm:hedge_acacia",
+      "meta": 0,
+      "color": "#878787"
+    },
+    {
+      "name": "tile.hedge_birch.name",
+      "uid": "cfm:hedge_birch",
+      "meta": 0,
+      "color": "#878787"
+    },
+    {
+      "name": "tile.hedge_dark_oak.name",
+      "uid": "cfm:hedge_dark_oak",
+      "meta": 0,
+      "color": "#878787"
+    },
+    {
+      "name": "tile.hedge_jungle.name",
+      "uid": "cfm:hedge_jungle",
+      "meta": 0,
+      "color": "#918e86"
+    },
+    {
+      "name": "tile.hedge_oak.name",
+      "uid": "cfm:hedge_oak",
+      "meta": 0,
+      "color": "#878787"
+    },
+    {
+      "name": "tile.hedge_spruce.name",
+      "uid": "cfm:hedge_spruce",
+      "meta": 0,
+      "color": "#747474"
+    },
+    {
+      "name": "tile.infernal_furnace.name",
+      "uid": "thaumcraft:infernal_furnace",
+      "meta": 0,
+      "color": "#7c007c"
+    },
+    {
+      "name": "tile.intangible:light.name",
+      "uid": "intangible:light",
+      "meta": 0,
+      "color": "#daf0f4"
+    },
+    {
+      "name": "tile.lamp_off.name",
+      "uid": "cfm:lamp_off",
+      "meta": 0,
+      "color": "#7d7d7d",
+      "alpha": 0.4
+    },
+    {
+      "name": "tile.lamp_on.name",
+      "uid": "cfm:lamp_on",
+      "meta": 0,
+      "color": "#7d7d7d",
+      "alpha": 0.4
+    },
+    {
+      "name": "tile.mail_box.name",
+      "uid": "cfm:mail_box",
+      "meta": 0,
+      "color": "#665131"
+    },
+    {
+      "name": "tile.mantel_piece.name",
+      "uid": "cfm:mantel_piece",
+      "meta": 0,
+      "color": "#926356"
+    },
+    {
+      "name": "tile.microwave.name",
+      "uid": "cfm:microwave",
+      "meta": 0,
+      "color": "#dbdbdb"
+    },
+    {
+      "name": "tile.neotech.carbon.name",
+      "uid": "neotech:neotech.carbon",
+      "meta": 0,
+      "color": "#9f9f9f"
+    },
+    {
+      "name": "tile.neotech.dirtycopper.name",
+      "uid": "neotech:neotech.dirtycopper",
+      "meta": 0,
+      "color": "#9f9f9f"
+    },
+    {
+      "name": "tile.neotech.dirtygold.name",
+      "uid": "neotech:neotech.dirtygold",
+      "meta": 0,
+      "color": "#9f9f9f"
+    },
+    {
+      "name": "tile.neotech.dirtyiron.name",
+      "uid": "neotech:neotech.dirtyiron",
+      "meta": 0,
+      "color": "#9f9f9f"
+    },
+    {
+      "name": "tile.neotech.dirtylead.name",
+      "uid": "neotech:neotech.dirtylead",
+      "meta": 0,
+      "color": "#9f9f9f"
+    },
+    {
+      "name": "tile.neotech.dirtysilver.name",
+      "uid": "neotech:neotech.dirtysilver",
+      "meta": 0,
+      "color": "#9f9f9f"
+    },
+    {
+      "name": "tile.neotech.dirtytin.name",
+      "uid": "neotech:neotech.dirtytin",
+      "meta": 0,
+      "color": "#9f9f9f"
+    },
+    {
+      "name": "tile.neotech.gold.name",
+      "uid": "neotech:neotech.gold",
+      "meta": 0,
+      "color": "#9a9a9a"
+    },
+    {
+      "name": "tile.neotech.hydrogen.name",
+      "uid": "neotech:neotech.hydrogen",
+      "meta": 0,
+      "color": "#ededed"
+    },
+    {
+      "name": "tile.neotech.iron.name",
+      "uid": "neotech:neotech.iron",
+      "meta": 0,
+      "color": "#9a9a9a"
+    },
+    {
+      "name": "tile.neotech.obsidian.name",
+      "uid": "neotech:neotech.obsidian",
+      "meta": 0,
+      "color": "#858585"
+    },
+    {
+      "name": "tile.neotech.oxygen.name",
+      "uid": "neotech:neotech.oxygen",
+      "meta": 0,
+      "color": "#ededed"
+    },
+    {
+      "name": "tile.npcScriptedDoor.name",
+      "uid": "customnpcs:npcScriptedDoor",
+      "meta": 0,
+      "color": "#504d39"
+    },
+    {
+      "name": "tile.oven.name",
+      "uid": "cfm:oven",
+      "meta": 0,
+      "color": "#e7e4db"
+    },
+    {
+      "name": "tile.plate.name",
+      "uid": "cfm:plate",
+      "meta": 0,
+      "color": "#e7e4db",
+      "alpha": 0.4
+    },
+    {
+      "name": "tile.present.name",
+      "uid": "cfm:present",
+      "meta": 0,
+      "color": "#191616"
+    },
+    {
+      "name": "tile.printer.name",
+      "uid": "cfm:printer",
+      "meta": 0,
+      "color": "#dbdbdb"
+    },
+    {
+      "name": "tile.range_hood.name",
+      "uid": "cfm:range_hood",
+      "meta": 0,
+      "color": "#e7e4db"
+    },
+    {
+      "name": "tile.shower_bottom.name",
+      "uid": "cfm:shower_bottom",
+      "meta": 0,
+      "color": "#ece9e2"
+    },
+    {
+      "name": "tile.shower_head_off.name",
+      "uid": "cfm:shower_head_off",
+      "meta": 0,
+      "color": "#7d7d7d"
+    },
+    {
+      "name": "tile.shower_head_on.name",
+      "uid": "cfm:shower_head_on",
+      "meta": 0,
+      "color": "#7d7d7d"
+    },
+    {
+      "name": "tile.shower_top.name",
+      "uid": "cfm:shower_top",
+      "meta": 0,
+      "color": "#ece9e2"
+    },
+    {
+      "name": "tile.stereo.name",
+      "uid": "cfm:stereo",
+      "meta": 0,
+      "color": "#665131"
+    },
+    {
+      "name": "tile.stone_path.name",
+      "uid": "cfm:stone_path",
+      "meta": 0,
+      "color": "#7d7d7d"
+    },
+    {
+      "name": "tile.tap.name",
+      "uid": "cfm:tap",
+      "meta": 0,
+      "color": "#7d7d7d"
+    },
+    {
+      "name": "tile.toaster.name",
+      "uid": "cfm:toaster",
+      "meta": 0,
+      "color": "#dbdbdb"
+    },
+    {
+      "name": "tile.toilet.name",
+      "uid": "cfm:toilet",
+      "meta": 0,
+      "color": "#e7e4db"
+    },
+    {
+      "name": "tile.tree_bottom.name",
+      "uid": "cfm:tree_bottom",
+      "meta": 0,
+      "color": "#878787"
+    },
+    {
+      "name": "tile.tree_top.name",
+      "uid": "cfm:tree_top",
+      "meta": 0,
+      "color": "#878787"
+    },
+    {
+      "name": "tile.tv.name",
+      "uid": "cfm:tv",
+      "meta": 0,
+      "color": "#665131"
+    },
+    {
+      "name": "tile.wall_cabinet.name",
+      "uid": "cfm:wall_cabinet",
+      "meta": 0,
+      "color": "#e7e4db"
+    },
+    {
+      "name": "tile.washing_machine.name",
+      "uid": "cfm:washing_machine",
+      "meta": 0,
+      "color": "#e7e4db"
+    },
+    {
+      "name": "tile.white_fence.name",
+      "uid": "cfm:white_fence",
+      "meta": 0,
+      "color": "#e7e4db"
+    },
+    {
+      "name": "tile.wreath.name",
+      "uid": "cfm:wreath",
+      "meta": 0,
+      "color": "#878787"
+    },
+    {
+      "name": "water",
+      "uid": "minecraft:flowing_water",
+      "meta": 0,
+      "color": "#2e43f4",
+      "alpha": 0.3
+    },
+    {
+      "name": "water",
+      "uid": "minecraft:water",
+      "meta": 0,
+      "color": "#2e43f4",
+      "alpha": 0.3
+    },
+    {
+      "name": "§1Blue §rStructure Pipe",
+      "uid": "neotech:pipeStructure",
+      "meta": 11,
+      "color": "#293063",
+      "alpha": 0.4
+    },
+    {
+      "name": "§2Green §rStructure Pipe",
+      "uid": "neotech:pipeStructure",
+      "meta": 13,
+      "color": "#323e1f",
+      "alpha": 0.4
+    },
+    {
+      "name": "§5Magenta §rStructure Pipe",
+      "uid": "neotech:pipeStructure",
+      "meta": 2,
+      "color": "#7d3984",
+      "alpha": 0.4
+    },
+    {
+      "name": "§5Purple §rStructure Pipe",
+      "uid": "neotech:pipeStructure",
+      "meta": 10,
+      "color": "#603383",
+      "alpha": 0.4
+    },
+    {
+      "name": "§6Brown §rStructure Pipe",
+      "uid": "neotech:pipeStructure",
+      "meta": 12,
+      "color": "#422f21",
+      "alpha": 0.4
+    },
+    {
+      "name": "§6Orange §rStructure Pipe",
+      "uid": "neotech:pipeStructure",
+      "meta": 1,
+      "color": "#9d5d2f",
+      "alpha": 0.4
+    },
+    {
+      "name": "§7Silver §rStructure Pipe",
+      "uid": "neotech:pipeStructure",
+      "meta": 8,
+      "color": "#717676",
+      "alpha": 0.4
+    },
+    {
+      "name": "§8Black §rStructure Pipe",
+      "uid": "neotech:pipeStructure",
+      "meta": 15,
+      "color": "#2f2f2f",
+      "alpha": 0.4
+    },
+    {
+      "name": "§8Gray §rStructure Pipe",
+      "uid": "neotech:pipeStructure",
+      "meta": 7,
+      "color": "#3c3c3c",
+      "alpha": 0.4
+    },
+    {
+      "name": "§9Light Blue §rStructure Pipe",
+      "uid": "neotech:pipeStructure",
+      "meta": 3,
+      "color": "#48608e",
+      "alpha": 0.4
+    },
+    {
+      "name": "§aLime §rStructure Pipe",
+      "uid": "neotech:pipeStructure",
+      "meta": 5,
+      "color": "#367b2f",
+      "alpha": 0.4
+    },
+    {
+      "name": "§bCyan §rStructure Pipe",
+      "uid": "neotech:pipeStructure",
+      "meta": 9,
+      "color": "#295364",
+      "alpha": 0.4
+    },
+    {
+      "name": "§cRed §rStructure Pipe",
+      "uid": "neotech:pipeStructure",
+      "meta": 14,
+      "color": "#6e2e2b",
+      "alpha": 0.4
+    },
+    {
+      "name": "§dPink §rStructure Pipe",
+      "uid": "neotech:pipeStructure",
+      "meta": 6,
+      "color": "#945b6b",
+      "alpha": 0.4
+    },
+    {
+      "name": "§eYellow §rStructure Pipe",
+      "uid": "neotech:pipeStructure",
+      "meta": 4,
+      "color": "#7c7624",
+      "alpha": 0.4
+    }
+  ]
+}

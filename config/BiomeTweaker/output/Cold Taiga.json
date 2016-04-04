@@ -22,11 +22,7 @@
     "FOREST",
     "SNOWY"
   ],
-  "BiomeManager Entries": {
-    "ICY Weights": [
-      10
-    ]
-  },
+  "BiomeManager Entries": {},
   "Spawnable Creatures": [
     {
       "Entity Class": "net.minecraft.entity.passive.EntitySheep",
@@ -156,5 +152,5 @@
     }
   ],
   "Spawn Biome": false,
-  "Tweaked": false
+  "Tweaked": true
 }

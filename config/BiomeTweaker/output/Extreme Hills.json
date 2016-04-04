@@ -20,14 +20,7 @@
     "MOUNTAIN",
     "HILLS"
   ],
-  "BiomeManager Entries": {
-    "WARM Weights": [
-      10
-    ],
-    "COOL Weights": [
-      10
-    ]
-  },
+  "BiomeManager Entries": {},
   "Spawnable Creatures": [
     {
       "Entity Class": "net.minecraft.entity.passive.EntitySheep",
@@ -145,5 +138,5 @@
     }
   ],
   "Spawn Biome": false,
-  "Tweaked": false
+  "Tweaked": true
 }
