@@ -102,6 +102,18 @@
       "Max Group Count": 1
     },
     {
+      "Entity Class": "thaumcraft.common.entities.monster.EntityBrainyZombie",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "thaumcraft.common.entities.monster.EntityBrainyZombie",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
       "Entity Class": "crazypants.enderzoo.entity.EntityConcussionCreeper",
       "Weight": 40,
       "Min Group Count": 1,
@@ -116,18 +128,6 @@
     {
       "Entity Class": "crazypants.enderzoo.entity.EntityWitherWitch",
       "Weight": 5,
-      "Min Group Count": 1,
-      "Max Group Count": 1
-    },
-    {
-      "Entity Class": "thaumcraft.common.entities.monster.EntityBrainyZombie",
-      "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 1
-    },
-    {
-      "Entity Class": "thaumcraft.common.entities.monster.EntityBrainyZombie",
-      "Weight": 10,
       "Min Group Count": 1,
       "Max Group Count": 1
     }
@@ -148,6 +148,6 @@
       "Max Group Count": 8
     }
   ],
-  "Spawn Biome": true,
+  "Spawn Biome": false,
   "Tweaked": true
 }
